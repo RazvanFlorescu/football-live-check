@@ -1,0 +1,8 @@
+E:\Projects\football-live-check\FootballLiveCheck\bin\Debug\netcoreapp2.0\FootballLiveCheck.deps.json
+E:\Projects\football-live-check\FootballLiveCheck\bin\Debug\netcoreapp2.0\FootballLiveCheck.runtimeconfig.json
+E:\Projects\football-live-check\FootballLiveCheck\bin\Debug\netcoreapp2.0\FootballLiveCheck.runtimeconfig.dev.json
+E:\Projects\football-live-check\FootballLiveCheck\bin\Debug\netcoreapp2.0\FootballLiveCheck.dll
+E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.csprojResolveAssemblyReference.cache
+E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.csproj.CoreCompileInputs.cache
+E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.AssemblyInfoInputs.cache
+E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.AssemblyInfo.cs
