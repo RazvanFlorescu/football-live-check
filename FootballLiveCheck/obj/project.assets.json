@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "AngularJS.Core/1.6.5": {
+        "type": "package"
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4766,6 +4769,19 @@
     }
   },
   "libraries": {
+    "AngularJS.Core/1.6.5": {
+      "sha512": "wdmv1HOB94p/W6Q7TXr5bvEHsMi8LQbTvD0SY1st9idP7rhKYEg2WwBUjGtQj1Ws5K0vYTKPRcYtfADlBQ5CVA==",
+      "type": "package",
+      "path": "angularjs.core/1.6.5",
+      "files": [
+        "angularjs.core.1.6.5.nupkg.sha512",
+        "angularjs.core.nuspec",
+        "content/Scripts/angular-mocks.js",
+        "content/Scripts/angular.js",
+        "content/Scripts/angular.min.js",
+        "content/Scripts/angular.min.js.map"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -16378,6 +16394,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "AngularJS.Core >= 1.6.5",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Npm >= 3.5.2"
@@ -16435,6 +16452,10 @@
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
+          },
+          "AngularJS.Core": {
+            "target": "Package",
+            "version": "1.6.5"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
