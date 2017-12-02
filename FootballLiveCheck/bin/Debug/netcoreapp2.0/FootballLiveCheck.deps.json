@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "bf17e1b716da8f79b5a7fce89a18ff21a5ba92ed"
+    "signature": "eb46bacc826f7de9ab13cbda7f6384d8fdde9cea"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "FootballLiveCheck/1.0.0": {
         "dependencies": {
+          "AngularJS.Core": "1.6.5",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Npm": "3.5.2"
@@ -34,6 +35,7 @@
           "FootballLiveCheck.dll": {}
         }
       },
+      "AngularJS.Core/1.6.5": {},
       "Libuv/1.10.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0"
@@ -3990,6 +3992,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AngularJS.Core/1.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wdmv1HOB94p/W6Q7TXr5bvEHsMi8LQbTvD0SY1st9idP7rhKYEg2WwBUjGtQj1Ws5K0vYTKPRcYtfADlBQ5CVA==",
+      "path": "angularjs.core/1.6.5",
+      "hashPath": "angularjs.core.1.6.5.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",

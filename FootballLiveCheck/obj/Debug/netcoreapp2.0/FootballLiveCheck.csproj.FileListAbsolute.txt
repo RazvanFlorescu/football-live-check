@@ -6,3 +6,6 @@ E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\Footba
 E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.csproj.CoreCompileInputs.cache
 E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.AssemblyInfoInputs.cache
 E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.AssemblyInfo.cs
+E:\Projects\football-live-check\FootballLiveCheck\bin\Debug\netcoreapp2.0\FootballLiveCheck.pdb
+E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.dll
+E:\Projects\football-live-check\FootballLiveCheck\obj\Debug\netcoreapp2.0\FootballLiveCheck.pdb
