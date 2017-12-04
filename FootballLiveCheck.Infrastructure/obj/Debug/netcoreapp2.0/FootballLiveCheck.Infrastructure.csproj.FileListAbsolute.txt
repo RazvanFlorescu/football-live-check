@@ -1,0 +1,17 @@
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.deps.json
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.dll
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.AssemblyInfo.cs
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.dll
+C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
