@@ -20,3 +20,18 @@ An extra feature would be represented by a service capable of estimating game ou
 * Service	->  The Api
 * WEB	-> Front-end Host ( Angular )
 
+## Naming Conventions
+### Repositories
+	* I{Entity}Repository
+  * {Entity}Repository
+
+### Business:
+* Commands:
+		{Action}{Entity}Command
+		{Action}{Entity}CommandHandler
+* Queries:
+		{Action}{Entity}Query
+		{Action}{Entity}QueryHandler
+* Events:
+		{Action}{Entity}Event
+		{Action}{Entity}EventHandler
