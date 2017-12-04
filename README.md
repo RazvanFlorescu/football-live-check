@@ -1,18 +1,22 @@
 # FootballLiveCheck 
-Proiectul isi propune  implementarea unei aplicatii web de scoruri si rezultate live din fotbal.
-Utilizatorul va fi notificat in timp real de situatia partidei in care joaca echipa favorita, vizualiza statistici despre meciurile precedente, clasamente, are acces la o camera de chat in care poate comunica cu restul utilizatorilor.
+The project's main purpose is to privide an web app capable of providing real time football events.
+The user will:
+- be notified real time about his favorite team's games
+- be able to check statistics about previous games
+- be able to check leaderboards
+- be able to chat real time with the other users.
 
-Extra : adaugarea unui serviciu  de estimare a rezultatului unei partide  in functie de storicul meciurilor, valoarea echipei, forma etc.
+An extra feature would be represented by a service capable of estimating game outcomes depending on match history, teams' net worth, etc.
 
-## Structura Proiectului -> 3 Layere : 
-### Core :  ->3 proiecte : 
-* Domain   	-> Entitati, Interfetele la repositories, Enums
-* Bussiness	-> Comenzi, Queriuri, Modele(DTO's), Servici etc
-* CQRS		-> Interfete de CQRS
-### Infrastructures	(tot ce depinde de un 3rd party)	-> 2 proiecte :
-* Configurations	
-* DataAccess       ->Implementari ale repositoriurilor
-### Presentation    	->2 proiecte   
-* Service	->  Api-ul
-* WEB	->Hostul pt proiectul de Angular
+## Structure -> N-Tiered : 
+### Core   -> 3 projects : 
+* Domain   	-> Entities, Interfaces, Enums
+* Bussiness	-> Commands, Queries, Models(DTO's), Services etc
+* CQRS		-> CQRS interfaces
+### Infrastructures	(3rd parties implementations)	-> 2 projects :
+* Configuration
+* DataAccess       -> repositories' implementations
+### Presentation    	-> 2 projects   
+* Service	->  The Api
+* WEB	-> Front-end Host ( Angular )
 
