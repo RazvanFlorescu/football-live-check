@@ -22,16 +22,16 @@ An extra feature would be represented by a service capable of estimating game ou
 
 ## Naming Conventions
 ### Repositories
-	* I{Entity}Repository
+  * I{Entity}Repository
   * {Entity}Repository
 
 ### Business:
 * Commands:
-		{Action}{Entity}Command
-		{Action}{Entity}CommandHandler
+		** {Action}{Entity}Command
+		** {Action}{Entity}CommandHandler
 * Queries:
-		{Action}{Entity}Query
-		{Action}{Entity}QueryHandler
+	** {Action}{Entity}Query
+	** {Action}{Entity}QueryHandler
 * Events:
-		{Action}{Entity}Event
-		{Action}{Entity}EventHandler
+	** {Action}{Entity}Event
+	** {Action}{Entity}EventHandler
