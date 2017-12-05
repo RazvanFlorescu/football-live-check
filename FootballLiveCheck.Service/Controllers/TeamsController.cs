@@ -5,6 +5,7 @@ using FootballLiveCheck.Business.Team.QueryResults;
 using FootballLiveCheck.CqrsCore.Dispatchers;
 using FootballLiveCheck.Service.Common;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -26,11 +27,19 @@ namespace FootballLiveCheck.Service.Controllers
             return Ok();
         }
 
-        [HttpGet("")]
+        [HttpGet("/api/teams")]
         public IActionResult GetAllTeams()
         {
             var query = new GetAllTeamsQuery();
             var result = QueryDispatcher.Retrive<GetAllTeamsQueryResult, GetAllTeamsQuery>(query);
+            return Ok(result);
+        }
+
+        [HttpGet("/api/teams/{teamId}")]
+        public IActionResult GetTeamById([FromRoute] Guid teamId)
+        {
+            var query = new GetTeamByIdQuery(teamId);
+            var result = QueryDispatcher.Retrive<GetAllTeamsQueryResult, GetTeamByIdQuery>(query);
             return Ok(result);
         }
 

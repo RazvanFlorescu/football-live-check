@@ -11,3 +11,16 @@ C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Business\obj\Deb
 C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
 C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
 C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.deps.json
+E:\Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+E:\Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+E:\Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+E:\Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csprojResolveAssemblyReference.cache
+E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csproj.CoreCompileInputs.cache
+E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfoInputs.cache
+E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
+E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb

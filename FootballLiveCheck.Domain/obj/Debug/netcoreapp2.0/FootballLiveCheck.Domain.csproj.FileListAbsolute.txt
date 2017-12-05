@@ -7,3 +7,12 @@ C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Domain\obj\Debug
 C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfo.cs
 C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
 C:\Users\codry\source\repos\FootballLiveCheck\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.deps.json
+E:\Projects\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+E:\Projects\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.csprojResolveAssemblyReference.cache
+E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.csproj.CoreCompileInputs.cache
+E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfoInputs.cache
+E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfo.cs
+E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
