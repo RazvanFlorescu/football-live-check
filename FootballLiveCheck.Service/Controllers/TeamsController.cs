@@ -27,7 +27,7 @@ namespace FootballLiveCheck.Service.Controllers
             return Ok();
         }
 
-        [HttpGet("/api/teams")]
+        [HttpGet("")]
         public IActionResult GetAllTeams()
         {
             var query = new GetAllTeamsQuery();
@@ -35,7 +35,7 @@ namespace FootballLiveCheck.Service.Controllers
             return Ok(result);
         }
 
-        [HttpGet("/api/teams/{teamId}")]
+        [HttpGet("/{teamId}")]
         public IActionResult GetTeamById([FromRoute] Guid teamId)
         {
             var query = new GetTeamByIdQuery(teamId);
