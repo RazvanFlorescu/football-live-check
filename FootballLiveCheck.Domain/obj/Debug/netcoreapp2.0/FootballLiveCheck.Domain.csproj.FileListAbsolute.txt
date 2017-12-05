@@ -16,3 +16,12 @@ E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0
 E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfo.cs
 E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
 E:\Projects\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.deps.json
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.csprojResolveAssemblyReference.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.csproj.CoreCompileInputs.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfoInputs.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfo.cs
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb

@@ -6792,7 +6792,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {},
+    "C:\\Users\\Catalin Costan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -6801,17 +6801,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Projects\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
+      "projectUniqueName": "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
       "projectName": "FootballLiveCheck.Data",
-      "projectPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Data\\obj\\",
+      "projectPath": "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
+      "packagesPath": "C:\\Users\\Catalin Costan\\.nuget\\packages\\",
+      "outputPath": "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Catalin Costan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6824,8 +6824,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
-              "projectPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
+            "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
+              "projectPath": "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
             }
           }
         }

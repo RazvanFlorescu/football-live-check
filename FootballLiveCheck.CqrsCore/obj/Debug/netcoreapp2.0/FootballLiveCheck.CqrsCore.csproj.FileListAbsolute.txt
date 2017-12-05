@@ -16,3 +16,12 @@ E:\Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2
 E:\Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.AssemblyInfo.cs
 E:\Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
 E:\Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.deps.json
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.csprojResolveAssemblyReference.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.csproj.CoreCompileInputs.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.AssemblyInfoInputs.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.AssemblyInfo.cs
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb

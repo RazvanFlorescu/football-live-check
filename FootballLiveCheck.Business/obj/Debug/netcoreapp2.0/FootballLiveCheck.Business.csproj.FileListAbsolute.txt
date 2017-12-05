@@ -26,3 +26,14 @@ E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2
 E:\Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
 D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
 D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.deps.json
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csprojResolveAssemblyReference.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csproj.CoreCompileInputs.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfoInputs.cache
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
