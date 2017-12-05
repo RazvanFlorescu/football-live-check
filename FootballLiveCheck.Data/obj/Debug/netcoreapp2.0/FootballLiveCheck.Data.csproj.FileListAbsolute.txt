@@ -20,3 +20,5 @@ E:\Projects\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\F
 E:\Projects\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.AssemblyInfo.cs
 E:\Projects\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
 E:\Projects\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb

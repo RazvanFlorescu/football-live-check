@@ -40,3 +40,5 @@ E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.
 E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
 E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
 E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
+D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb

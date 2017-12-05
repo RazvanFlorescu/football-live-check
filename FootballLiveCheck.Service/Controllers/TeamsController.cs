@@ -47,6 +47,13 @@ namespace FootballLiveCheck.Service.Controllers
             return Ok(result);
         }
 
-
+        
+        [HttpDelete("")]
+        public IActionResult DeleteTeam([FromBody] TeamModel teamModel)
+        {
+            var command = new DeleteTeamCommand(teamModel);
+            CommandDispatcher.Handle(command);
+            return Ok();
+        }
     }
 }
