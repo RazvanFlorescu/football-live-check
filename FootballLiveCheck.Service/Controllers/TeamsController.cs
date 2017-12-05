@@ -55,5 +55,14 @@ namespace FootballLiveCheck.Service.Controllers
             CommandDispatcher.Handle(command);
             return Ok();
         }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateTeam([FromBody]TeamModel teamModel)
+        {
+            var command = new UpdateTeamCommand(teamModel);
+            CommandDispatcher.Handle(command);
+            return Ok();
+        }
+
     }
 }
