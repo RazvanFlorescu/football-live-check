@@ -6,7 +6,7 @@ using FootballLiveCheck.Domain.Repositories;
 
 namespace FootballLiveCheck.Business.Team.QueryHandlers
 {
-    class GetTeamByIdQueryHandler : DatabaseHandler, IQueryHandler<GetTeamByIdQuery, GetTeamByIdQueryResult>
+    public class GetTeamByIdQueryHandler : DatabaseHandler, IQueryHandler<GetTeamByIdQuery, GetTeamByIdQueryResult>
     {
         private readonly ITeamRepository teamRepository;
 

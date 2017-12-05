@@ -35,11 +35,15 @@ namespace FootballLiveCheck.Service.Controllers
             return Ok(result);
         }
 
-        [HttpGet("/{teamId}")]
+        [HttpGet("{teamId}")]
         public IActionResult GetTeamById([FromRoute] Guid teamId)
         {
             var query = new GetTeamByIdQuery(teamId);
-            var result = QueryDispatcher.Retrive<GetAllTeamsQueryResult, GetTeamByIdQuery>(query);
+            var result = QueryDispatcher.Retrive<GetTeamByIdQueryResult, GetTeamByIdQuery>(query);
+
+            if (result == null)
+                return BadRequest();
+
             return Ok(result);
         }
 
