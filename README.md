@@ -14,8 +14,8 @@ An extra feature would be represented by a service capable of estimating game ou
 * Bussiness	-> Commands, Queries, Models(DTO's), Services etc
 * CQRS		-> CQRS interfaces
 ### Infrastructures	(3rd parties implementations)	-> 2 projects :
-* Configuration
-* DataAccess       -> repositories' implementations
+* Infrastructure
+* Data	        -> repositories' implementations
 ### Presentation    	-> 2 projects   
 * Service	->  The Api
 * WEB	-> Front-end Host ( Angular )
