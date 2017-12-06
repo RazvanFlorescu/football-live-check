@@ -6,7 +6,7 @@ using FootballLiveCheck.Domain.Repositories;
 
 namespace FootballLiveCheck.Business.Team.CommandHandlers
 {
-    public class UpdateTeamCommandHandler : DatabaseHandler, ICommandHandler<DeleteTeamCommand>
+    public class UpdateTeamCommandHandler : DatabaseHandler, ICommandHandler<UpdateTeamCommand>
     {
         private readonly ITeamRepository teamRepository;
         public UpdateTeamCommandHandler(IMapper mapper, ITeamRepository teamRepository) : base(mapper)
@@ -15,7 +15,7 @@ namespace FootballLiveCheck.Business.Team.CommandHandlers
             this.teamRepository = teamRepository;
         }
 
-        public void Handle(DeleteTeamCommand command)
+        public void Handle(UpdateTeamCommand command)
         {
             var commmandEntity = Mapper.Map<Domain.Entities.Team>(command.TeamModel);
             teamRepository.Update(commmandEntity);
