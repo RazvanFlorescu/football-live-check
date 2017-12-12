@@ -13,19 +13,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Tests", "99. Tests", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Solution Items", "00. Solution Items", "{14F56F64-E2FE-462B-924A-3F7F9036456B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLiveCheck.Domain", "FootballLiveCheck.Domain\FootballLiveCheck.Domain.csproj", "{3C5BB0A5-1418-442B-B69E-2ACEE79DB82E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Domain", "FootballLiveCheck.Domain\FootballLiveCheck.Domain.csproj", "{3C5BB0A5-1418-442B-B69E-2ACEE79DB82E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLiveCheck.Business", "FootballLiveCheck.Business\FootballLiveCheck.Business.csproj", "{1392F3D7-CDBB-4945-9636-C934412551C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Business", "FootballLiveCheck.Business\FootballLiveCheck.Business.csproj", "{1392F3D7-CDBB-4945-9636-C934412551C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLiveCheck.CqrsCore", "FootballLiveCheck.CqrsCore\FootballLiveCheck.CqrsCore.csproj", "{624B6B46-CFCD-4ECB-B7EC-AC2316282FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.CqrsCore", "FootballLiveCheck.CqrsCore\FootballLiveCheck.CqrsCore.csproj", "{624B6B46-CFCD-4ECB-B7EC-AC2316282FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLiveCheck.Data", "FootballLiveCheck.Data\FootballLiveCheck.Data.csproj", "{125FE48D-3D6F-4770-9100-F3CD9043697D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Data", "FootballLiveCheck.Data\FootballLiveCheck.Data.csproj", "{125FE48D-3D6F-4770-9100-F3CD9043697D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLiveCheck.Infrastructure", "FootballLiveCheck.Infrastructure\FootballLiveCheck.Infrastructure.csproj", "{341E9D56-439E-4CE5-9AB1-CF6FFD05E94F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Infrastructure", "FootballLiveCheck.Infrastructure\FootballLiveCheck.Infrastructure.csproj", "{341E9D56-439E-4CE5-9AB1-CF6FFD05E94F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLiveCheck.Service", "FootballLiveCheck.Service\FootballLiveCheck.Service.csproj", "{010D21C2-CF3E-441A-A14C-1C7868AD6E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Service", "FootballLiveCheck.Service\FootballLiveCheck.Service.csproj", "{010D21C2-CF3E-441A-A14C-1C7868AD6E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLiveCheck.Web", "FootballLiveCheck.Web\FootballLiveCheck.Web.csproj", "{B23D6C08-11E8-48A0-9E9E-12CBDAE368D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Web", "FootballLiveCheck.Web\FootballLiveCheck.Web.csproj", "{B23D6C08-11E8-48A0-9E9E-12CBDAE368D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Tests.Shared", "FootballLiveCheck.Test.Shared\FootballLiveCheck.Tests.Shared.csproj", "{00F5148D-9A93-448F-9460-FA9388B5153A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Business.IntegrationTests", "FootballLiveCheck.Business.IntegrationTests\FootballLiveCheck.Business.IntegrationTests.csproj", "{EFD21ED5-50A3-4FD1-A72C-F8A4BA98E9DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Business.Tests", "FootballLiveCheck.Business.Tests\FootballLiveCheck.Business.Tests.csproj", "{5949DE37-1845-4B74-B1A4-F76BE04D2863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballLiveCheck.Domain.Tests", "FootballLiveCheck.Domain.Tests\FootballLiveCheck.Domain.Tests.csproj", "{238973A3-8121-47F3-8704-1E073194F7AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +69,22 @@ Global
 		{B23D6C08-11E8-48A0-9E9E-12CBDAE368D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23D6C08-11E8-48A0-9E9E-12CBDAE368D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23D6C08-11E8-48A0-9E9E-12CBDAE368D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F5148D-9A93-448F-9460-FA9388B5153A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F5148D-9A93-448F-9460-FA9388B5153A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F5148D-9A93-448F-9460-FA9388B5153A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F5148D-9A93-448F-9460-FA9388B5153A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD21ED5-50A3-4FD1-A72C-F8A4BA98E9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD21ED5-50A3-4FD1-A72C-F8A4BA98E9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD21ED5-50A3-4FD1-A72C-F8A4BA98E9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD21ED5-50A3-4FD1-A72C-F8A4BA98E9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5949DE37-1845-4B74-B1A4-F76BE04D2863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5949DE37-1845-4B74-B1A4-F76BE04D2863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5949DE37-1845-4B74-B1A4-F76BE04D2863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5949DE37-1845-4B74-B1A4-F76BE04D2863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238973A3-8121-47F3-8704-1E073194F7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238973A3-8121-47F3-8704-1E073194F7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238973A3-8121-47F3-8704-1E073194F7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238973A3-8121-47F3-8704-1E073194F7AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +97,10 @@ Global
 		{341E9D56-439E-4CE5-9AB1-CF6FFD05E94F} = {66789AD6-FDA3-48B5-AC8F-7F3CA59BF75B}
 		{010D21C2-CF3E-441A-A14C-1C7868AD6E1E} = {2B089748-71AD-4162-90E1-B91CC1359A5A}
 		{B23D6C08-11E8-48A0-9E9E-12CBDAE368D3} = {2B089748-71AD-4162-90E1-B91CC1359A5A}
+		{00F5148D-9A93-448F-9460-FA9388B5153A} = {1F314102-87F0-4217-83D3-2373B7305DB0}
+		{EFD21ED5-50A3-4FD1-A72C-F8A4BA98E9DB} = {1F314102-87F0-4217-83D3-2373B7305DB0}
+		{5949DE37-1845-4B74-B1A4-F76BE04D2863} = {1F314102-87F0-4217-83D3-2373B7305DB0}
+		{238973A3-8121-47F3-8704-1E073194F7AF} = {1F314102-87F0-4217-83D3-2373B7305DB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {437CB160-D820-480A-8900-33A4F5251873}

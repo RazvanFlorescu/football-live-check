@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Catalin Costan\\.nuget\\packages\\": {},
+    "C:\\Users\\codry\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +673,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj",
       "projectName": "FootballLiveCheck.Domain",
-      "projectPath": "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj",
-      "packagesPath": "C:\\Users\\Catalin Costan\\.nuget\\packages\\",
-      "outputPath": "D:\\scoala\\anul 3\\semestrul 1\\iNET\\football-live-check\\FootballLiveCheck.Domain\\obj\\",
+      "projectPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj",
+      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Catalin Costan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

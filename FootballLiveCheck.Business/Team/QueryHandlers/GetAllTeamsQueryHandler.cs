@@ -1,5 +1,7 @@
-﻿using AutoMapper;
+﻿using System.Collections.Generic;
+using AutoMapper;
 using EnsureThat;
+using FootballLiveCheck.Business.Team.Models;
 using FootballLiveCheck.Business.Team.Queries;
 using FootballLiveCheck.Business.Team.QueryResults;
 using FootballLiveCheck.Domain.Repositories;
@@ -19,8 +21,10 @@ namespace FootballLiveCheck.Business.Team.QueryHandlers
 
         public GetAllTeamsQueryResult Retrieve(GetAllTeamsQuery query)
         {
-            var result = teamRepository.GetAll();
-            return new GetAllTeamsQueryResult(result);
+            EnsureArg.IsNotNull(query);
+            var teams = teamRepository.GetAll();
+            var models = Mapper.Map<IReadOnlyCollection<TeamModel>>(teams);
+            return new GetAllTeamsQueryResult(models);
         }
     }
 }

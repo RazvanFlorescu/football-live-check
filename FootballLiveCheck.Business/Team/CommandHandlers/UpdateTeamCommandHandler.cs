@@ -17,6 +17,7 @@ namespace FootballLiveCheck.Business.Team.CommandHandlers
 
         public void Handle(UpdateTeamCommand command)
         {
+            EnsureArg.IsNotNull(command);
             var commmandEntity = Mapper.Map<Domain.Entities.Team>(command.TeamModel);
             teamRepository.Update(commmandEntity);
             teamRepository.SaveChanges();

@@ -61,3 +61,24 @@ D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Service\
 D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.csproj.CoreCompileInputs.cache
 D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfoInputs.cache
 D:\scoala\anul 3\semestrul 1\iNET\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.deps.json
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.runtimeconfig.json
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.runtimeconfig.dev.json
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.dll
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.csprojResolveAssemblyReference.cache
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.csproj.CoreCompileInputs.cache
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfoInputs.cache
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
+C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb

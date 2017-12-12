@@ -4,7 +4,7 @@ using FootballLiveCheck.CqrsCore.Commands;
 
 namespace FootballLiveCheck.Business.Team.Commands
 {
-    class UpdateTeamCommand : ICommand
+    public class UpdateTeamCommand : ICommand
     {
         public UpdateTeamCommand(TeamModel teamModel)
         {
