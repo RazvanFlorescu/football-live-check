@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EnsureThat;
+using FootballLiveCheck.Business.Team.Models;
 using FootballLiveCheck.Business.Team.QueryResults;
 using FootballLiveCheck.CqrsCore.Queries;
 using FootballLiveCheck.Domain.Repositories;
@@ -20,7 +21,7 @@ namespace FootballLiveCheck.Business.Team.QueryHandlers
         public GetTeamByIdQueryResult Retrieve(GetTeamByIdQuery query)
         {
             EnsureArg.IsNotNull(query);
-            return new GetTeamByIdQueryResult(this.teamRepository.Search(t => t.Id == query.Id));
+            return new GetTeamByIdQueryResult(Mapper.Map<TeamModel>(this.teamRepository.GetById(query.Id)));
         }
     }
 }

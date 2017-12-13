@@ -47,7 +47,19 @@ namespace FootballLiveCheck.Service.Controllers
             return Ok(result);
         }
 
-        
+        [HttpGet("byLeague/{leagueId}")]
+        public IActionResult GetTeamsByLeagueId([FromRoute] Guid leagueId)
+        {
+            var query = new GetTeamsByLeagueIdQuery(leagueId);
+            var result = QueryDispatcher.Retrive<GetTeamsByLeagueIdQueryResult, GetTeamsByLeagueIdQuery>(query);
+
+            if (result == null)
+                return BadRequest();
+
+            return Ok(result);
+        }
+
+
         [HttpDelete("")]
         public IActionResult DeleteTeam([FromBody] TeamModel teamModel)
         {
@@ -63,6 +75,8 @@ namespace FootballLiveCheck.Service.Controllers
             CommandDispatcher.Handle(command);
             return Ok();
         }
+
+
 
     }
 }

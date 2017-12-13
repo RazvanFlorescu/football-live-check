@@ -9,7 +9,7 @@ namespace FootballLiveCheck.Data.Repositories
     public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
         protected readonly DatabaseContext dbContext;
-        private readonly DbSet<T> entitiesSet;
+        protected readonly DbSet<T> entitiesSet;
 
         public BaseRepository(DatabaseContext dbContext)
         {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FootballLiveCheck.Business.Team.Models
+namespace FootballLiveCheck.Business.Shared
 {
     public class BaseModel
     {

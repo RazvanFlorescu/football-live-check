@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
-using AutoMapper;
 using EnsureThat;
 using FootballLiveCheck.Business.Team.Models;
 using FootballLiveCheck.CqrsCore.Queries;

@@ -6,6 +6,9 @@
 
   <ItemGroup>
     <Folder Include="Exceptions\" />
+    <Folder Include="League\Event\" />
+    <Folder Include="League\EventHandler\" />
+    <Folder Include="League\Validators\" />
     <Folder Include="Resources\" />
     <Folder Include="Validators\" />
     <Folder Include="Team\Events\" />

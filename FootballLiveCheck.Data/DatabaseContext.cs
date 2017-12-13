@@ -1,4 +1,5 @@
-﻿using FootballLiveCheck.Domain.Entities;
+﻿using FootballLiveCheck.Data.Mappings;
+using FootballLiveCheck.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace FootballLiveCheck.Data
@@ -8,8 +9,8 @@ namespace FootballLiveCheck.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.Entity<Team>()
-                .HasKey(t => t.Id);
+            TeamMapping teamMapping = new TeamMapping(builder);
+            LeagueMapping leagueMapping = new LeagueMapping(builder);
         }
         public DatabaseContext(DbContextOptions options) : base(options)
         {
@@ -17,6 +18,6 @@ namespace FootballLiveCheck.Data
         }
 
         public DbSet<Team> Teams{ get; set; }
-
+        public DbSet<League> Leagues { get; set; }
     }
 }

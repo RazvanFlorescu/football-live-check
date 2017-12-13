@@ -6,7 +6,6 @@ C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.Integ
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.runtimeconfig.dev.json
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.dll
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.pdb
-C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.csprojResolveAssemblyReference.cache
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.csproj.CoreCompileInputs.cache
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.AssemblyInfoInputs.cache
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.AssemblyInfo.cs

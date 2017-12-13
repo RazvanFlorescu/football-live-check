@@ -20,6 +20,28 @@ namespace FootballLiveCheck.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.League", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("ApiId");
+
+                    b.Property<string>("FlagURL");
+
+                    b.Property<string>("FullName");
+
+                    b.Property<string>("RegionFlagURL");
+
+                    b.Property<string>("RegionName");
+
+                    b.Property<string>("ShortName");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Leagues");
+                });
+
             modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Team", b =>
                 {
                     b.Property<Guid>("Id")

@@ -1,15 +1,19 @@
 ﻿using FootballLiveCheck.CqrsCore.Queries;
 using System.Linq;
+using EnsureThat;
+using FootballLiveCheck.Business.Team.Models;
+using FootballLiveCheck.Domain.Repositories;
 
 namespace FootballLiveCheck.Business.Team.QueryResults
 {
     public class GetTeamByIdQueryResult : IQueryResult
     {
-        public IQueryable Teams { get; private set; }
+        public TeamModel Team { get; private set; }
 
-        public GetTeamByIdQueryResult(IQueryable teams)
+        public GetTeamByIdQueryResult(TeamModel team)
         {
-            Teams = teams;
+            EnsureArg.IsNotNull(team);
+            Team = team;
         }
     }
 }

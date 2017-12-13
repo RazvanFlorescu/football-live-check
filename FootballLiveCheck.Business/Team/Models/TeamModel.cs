@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using FootballLiveCheck.Business.Shared;
 
 namespace FootballLiveCheck.Business.Team.Models
 {
@@ -11,6 +10,5 @@ namespace FootballLiveCheck.Business.Team.Models
         public Guid LeagueId { get; set; }
 
         public int Points { get; set; }
-
     }
 }

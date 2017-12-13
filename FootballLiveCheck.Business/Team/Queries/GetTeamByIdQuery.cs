@@ -1,5 +1,6 @@
 ﻿using FootballLiveCheck.CqrsCore.Queries;
 using System;
+using EnsureThat;
 
 namespace FootballLiveCheck.Business.Team.QueryResults
 {
@@ -9,6 +10,7 @@ namespace FootballLiveCheck.Business.Team.QueryResults
 
         public GetTeamByIdQuery(Guid id)
         {
+            EnsureArg.IsNotNull(id);
             this.Id = id;
         }
     }

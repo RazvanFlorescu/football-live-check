@@ -14,9 +14,6 @@ namespace FootballLiveCheck.Domain.Entities
 
         public int Points { get; private set; }
 
-        //public int Points => PlayedGames.Count(pg => pg.IsWon) * 3 + PlayedGames.Count(pg => pg.IsDraw);
-
-        //public virtual IEnumerable<Game> PlayedGames { get; private set; }
         public static Team Create(string name, Guid leagueId, int points)
         {
             return new Team
@@ -26,5 +23,6 @@ namespace FootballLiveCheck.Domain.Entities
                 Points = points
             };
         }
+        
     }
 }
