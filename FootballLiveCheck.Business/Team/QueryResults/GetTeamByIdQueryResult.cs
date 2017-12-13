@@ -5,7 +5,7 @@ namespace FootballLiveCheck.Business.Team.QueryResults
 {
     public class GetTeamByIdQueryResult : IQueryResult
     {
-        public IQueryable Teams { get; private set; }
+        public IQueryable Teams { get; }
 
         public GetTeamByIdQueryResult(IQueryable teams)
         {

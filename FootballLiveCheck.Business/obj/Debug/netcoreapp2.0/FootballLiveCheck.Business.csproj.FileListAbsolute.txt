@@ -50,3 +50,16 @@ C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\D
 C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
 C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
 C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.deps.json
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfoInputs.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb

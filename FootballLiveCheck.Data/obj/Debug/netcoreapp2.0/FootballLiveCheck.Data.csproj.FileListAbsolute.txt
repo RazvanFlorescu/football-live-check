@@ -42,3 +42,14 @@ C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug
 C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.AssemblyInfo.cs
 C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
 C:\Users\codry\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.deps.json
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.AssemblyInfoInputs.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.AssemblyInfo.cs
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Data\obj\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb

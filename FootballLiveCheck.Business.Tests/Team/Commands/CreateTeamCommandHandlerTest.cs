@@ -6,7 +6,6 @@ using FootballLiveCheck.Domain.Repositories;
 using FootballLiveCheck.Tests.Shared;
 using FootballLiveCheck.Tests.Shared.Factories;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 
 namespace FootballLiveCheck.Business.Tests.Team.Commands
 {

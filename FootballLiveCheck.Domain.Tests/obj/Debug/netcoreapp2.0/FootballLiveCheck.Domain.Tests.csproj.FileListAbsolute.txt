@@ -12,3 +12,17 @@ C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Domain.Tests\o
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.pdb
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.dll
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.deps.json
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.runtimeconfig.json
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.runtimeconfig.dev.json
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.pdb
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.AssemblyInfoInputs.cache
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.AssemblyInfo.cs
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.dll
+C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Domain.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.Tests.pdb

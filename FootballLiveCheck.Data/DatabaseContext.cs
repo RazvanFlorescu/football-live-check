@@ -10,13 +10,16 @@ namespace FootballLiveCheck.Data
             base.OnModelCreating(builder);
             builder.Entity<Team>()
                 .HasKey(t => t.Id);
+            builder.Entity<User>()
+                .HasKey(t => t.Id);
         }
+
         public DatabaseContext(DbContextOptions options) : base(options)
         {
-            
         }
 
-        public DbSet<Team> Teams{ get; set; }
+        public DbSet<Team> Teams { get; set; }
 
+        public DbSet<User> Users { get; set; }
     }
 }
