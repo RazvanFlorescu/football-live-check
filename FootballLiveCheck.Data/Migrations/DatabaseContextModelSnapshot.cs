@@ -57,6 +57,24 @@ namespace FootballLiveCheck.Data.Migrations
 
                     b.ToTable("Teams");
                 });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Picture");
+
+                    b.Property<string>("Username");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
 #pragma warning restore 612, 618
         }
     }

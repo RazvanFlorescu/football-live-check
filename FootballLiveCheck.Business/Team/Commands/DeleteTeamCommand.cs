@@ -12,6 +12,6 @@ namespace FootballLiveCheck.Business.Team.Commands
             TeamModel = teamModel;
         }
 
-        public TeamModel TeamModel { get;}
+        public TeamModel TeamModel { get; }
     }
 }

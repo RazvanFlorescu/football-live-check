@@ -10,6 +10,8 @@
     <Folder Include="League\EventHandler\" />
     <Folder Include="League\Validators\" />
     <Folder Include="Resources\" />
+    <Folder Include="User\EventHandlers\" />
+    <Folder Include="User\Events\" />
     <Folder Include="Validators\" />
     <Folder Include="Team\Events\" />
     <Folder Include="Team\EventHandlers\" />

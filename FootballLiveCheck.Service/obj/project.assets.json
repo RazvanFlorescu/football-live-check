@@ -6355,7 +6355,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "za/I3Pt/BFeARTK2NV6f+QALBbARv3zsOB83wuBiuN4xI32MwwwHh//JJxe7vMofwQLtT4DV3cNBThRfPkKiqQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -13481,7 +13481,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\codry\\.nuget\\packages\\": {},
+    "C:\\Users\\Cristian\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13490,17 +13490,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Service\\FootballLiveCheck.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Service\\FootballLiveCheck.Service.csproj",
       "projectName": "FootballLiveCheck.Service",
-      "projectPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Service\\FootballLiveCheck.Service.csproj",
-      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Service\\obj\\",
+      "projectPath": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Service\\FootballLiveCheck.Service.csproj",
+      "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13513,14 +13513,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj": {
-              "projectPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj"
+            "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj": {
+              "projectPath": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj"
             },
-            "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj": {
-              "projectPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj"
+            "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj": {
+              "projectPath": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj"
             },
-            "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Infrastructure\\FootballLiveCheck.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Infrastructure\\FootballLiveCheck.Infrastructure.csproj"
+            "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Infrastructure\\FootballLiveCheck.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Infrastructure\\FootballLiveCheck.Infrastructure.csproj"
             }
           }
         }
@@ -13556,7 +13556,7 @@
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {

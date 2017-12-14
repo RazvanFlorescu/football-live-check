@@ -1,5 +1,4 @@
 ﻿using FootballLiveCheck.CqrsCore.Dispatchers;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FootballLiveCheck.Service.Common
