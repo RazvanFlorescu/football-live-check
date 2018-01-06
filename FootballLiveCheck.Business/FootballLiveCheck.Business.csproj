@@ -9,6 +9,13 @@
     <Folder Include="League\Event\" />
     <Folder Include="League\EventHandler\" />
     <Folder Include="League\Validators\" />
+    <Folder Include="Match\Commands\" />
+    <Folder Include="Match\CommandsHandlers\" />
+    <Folder Include="Match\Event\" />
+    <Folder Include="Match\Validators\" />
+    <Folder Include="Match\QueryResults\" />
+    <Folder Include="Match\QueryHandlers\" />
+    <Folder Include="Match\Queries\" />
     <Folder Include="Resources\" />
     <Folder Include="User\EventHandlers\" />
     <Folder Include="User\Events\" />
@@ -18,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="6.2.1" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
     <PackageReference Include="Ensure.That" Version="7.1.0" />
   </ItemGroup>
 

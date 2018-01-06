@@ -20,34 +20,120 @@ namespace FootballLiveCheck.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Arena", b =>
+                {
+                    b.Property<int>("Id");
+
+                    b.Property<int>("Capacity");
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Arena");
+                });
+
             modelBuilder.Entity("FootballLiveCheck.Domain.Entities.League", b =>
                 {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int>("ApiId");
+                    b.Property<int>("Id");
 
                     b.Property<string>("FlagURL");
 
                     b.Property<string>("FullName");
 
-                    b.Property<string>("RegionFlagURL");
-
-                    b.Property<string>("RegionName");
+                    b.Property<int>("RegionId");
 
                     b.Property<string>("ShortName");
 
                     b.HasKey("Id");
 
-                    b.ToTable("League");
+                    b.HasIndex("RegionId");
+
+                    b.ToTable("Leagues");
                 });
 
-            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Team", b =>
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Match", b =>
+                {
+                    b.Property<int>("Id");
+
+                    b.Property<int>("AwayGoals");
+
+                    b.Property<int>("AwayTeamId");
+
+                    b.Property<int>("CurrentStateId");
+
+                    b.Property<int>("HomeGoals");
+
+                    b.Property<int>("HomeTeamId");
+
+                    b.Property<int>("LeagueId");
+
+                    b.Property<Guid>("OutcomeId");
+
+                    b.Property<int>("SeasonId");
+
+                    b.Property<string>("Start");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AwayTeamId");
+
+                    b.HasIndex("HomeTeamId");
+
+                    b.HasIndex("LeagueId");
+
+                    b.HasIndex("OutcomeId");
+
+                    b.HasIndex("SeasonId");
+
+                    b.ToTable("Matches");
+                });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Outcome", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("ApiId");
+                    b.Property<bool>("AfterExtraTime");
+
+                    b.Property<string>("Type");
+
+                    b.Property<string>("Winner");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Outcome");
+                });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Region", b =>
+                {
+                    b.Property<int>("Id");
+
+                    b.Property<string>("FlagUrl");
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Region");
+                });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Season", b =>
+                {
+                    b.Property<int>("Id");
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Season");
+                });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Team", b =>
+                {
+                    b.Property<int>("Id");
+
+                    b.Property<int>("ArenaId");
 
                     b.Property<string>("FullName");
 
@@ -56,6 +142,9 @@ namespace FootballLiveCheck.Data.Migrations
                     b.Property<string>("ShortName");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ArenaId")
+                        .IsUnique();
 
                     b.ToTable("Teams");
                 });
@@ -75,7 +164,51 @@ namespace FootballLiveCheck.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.League", b =>
+                {
+                    b.HasOne("FootballLiveCheck.Domain.Entities.Region", "Region")
+                        .WithMany()
+                        .HasForeignKey("RegionId")
+                        .OnDelete(DeleteBehavior.Restrict);
+                });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Match", b =>
+                {
+                    b.HasOne("FootballLiveCheck.Domain.Entities.Team", "AwayTeam")
+                        .WithMany()
+                        .HasForeignKey("AwayTeamId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("FootballLiveCheck.Domain.Entities.Team", "HomeTeam")
+                        .WithMany()
+                        .HasForeignKey("HomeTeamId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("FootballLiveCheck.Domain.Entities.League", "League")
+                        .WithMany()
+                        .HasForeignKey("LeagueId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("FootballLiveCheck.Domain.Entities.Outcome", "Outcome")
+                        .WithMany()
+                        .HasForeignKey("OutcomeId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("FootballLiveCheck.Domain.Entities.Season", "Season")
+                        .WithMany("Matches")
+                        .HasForeignKey("SeasonId")
+                        .OnDelete(DeleteBehavior.Restrict);
+                });
+
+            modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Team", b =>
+                {
+                    b.HasOne("FootballLiveCheck.Domain.Entities.Arena", "Arena")
+                        .WithOne()
+                        .HasForeignKey("FootballLiveCheck.Domain.Entities.Team", "ArenaId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 #pragma warning restore 612, 618
         }

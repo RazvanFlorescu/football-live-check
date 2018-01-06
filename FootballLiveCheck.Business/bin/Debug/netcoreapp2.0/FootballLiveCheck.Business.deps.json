@@ -1,14 +1,14 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "5457250404bd95eb03dc05ed58917d90b952202e"
+    "signature": "3a17b61af43c9d5830415071c385502011923b1f"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "FootballLiveCheck.Business/1.0.0": {
         "dependencies": {
-          "AutoMapper": "6.2.1",
+          "AutoMapper": "6.2.2",
           "Ensure.That": "7.1.0",
           "FootballLiveCheck.CqrsCore": "1.0.0",
           "FootballLiveCheck.Domain": "1.0.0"
@@ -17,7 +17,7 @@
           "FootballLiveCheck.Business.dll": {}
         }
       },
-      "AutoMapper/6.2.1": {
+      "AutoMapper/6.2.2": {
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
@@ -378,12 +378,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AutoMapper/6.2.1": {
+    "AutoMapper/6.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZD9he/2wsNQbfnZJMc7Ijvz0hf2Lc6R8Tk97k8Q741flowTHd/YPxG8d5P0BVOJAPLVXjjX6IZ8l0u0A2l+K2g==",
-      "path": "automapper/6.2.1",
-      "hashPath": "automapper.6.2.1.nupkg.sha512"
+      "sha512": "sha512-eGKcnJdoF5rYMWPUaSPtlWdvua9xw4hnQN5kM/X4AXLGKghrtPIaMv+RYoA3sj0kyZ3X6wZ1Qj67F+u0pCCPaw==",
+      "path": "automapper/6.2.2",
+      "hashPath": "automapper.6.2.2.nupkg.sha512"
     },
     "Ensure.That/7.1.0": {
       "type": "package",

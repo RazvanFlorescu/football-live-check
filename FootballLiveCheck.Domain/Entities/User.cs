@@ -1,6 +1,6 @@
 ﻿namespace FootballLiveCheck.Domain.Entities
 {
-    public class User : BaseEntity
+    public class User : DomainEntity
     {
         private User()
         {

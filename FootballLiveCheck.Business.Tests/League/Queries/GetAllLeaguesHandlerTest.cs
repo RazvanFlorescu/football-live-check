@@ -6,6 +6,7 @@ using FootballLiveCheck.Business.League.Models;
 using FootballLiveCheck.Business.League.Queries;
 using FootballLiveCheck.Business.League.QueryHandlers;
 using FootballLiveCheck.Business.League.QueryResults;
+using FootballLiveCheck.Domain.Entities;
 using FootballLiveCheck.Domain.Repositories;
 using FootballLiveCheck.Tests.Shared;
 using FootballLiveCheck.Tests.Shared.Extensions;
@@ -29,8 +30,9 @@ namespace FootballLiveCheck.Business.Tests.League.Queries
         [TestMethod]
         public void Given_Retrieve_When_PassedValidQuery_Then_Should_ReturnAllLeagues()
         {
-            var leagues = LeagueFactory.GetEntity(20, "LSTN", "LeagueFullTestName", "TestRegion",
-                "https://www.flagTest.png", "https://www.regionflagTest.png").ToQueryableCollection();
+            var region =Region.Create( "regiontest","www.test.ro");
+            var leagues = LeagueFactory.GetEntity(20, "LSTN", "LeagueFullTestName",
+                "https://www.flagTest.png", region).ToQueryableCollection();
             RepositoryMock.Setup(r => r.GetAll()).Returns(leagues);
             var models = LeagueFactory.GetModel(leagues.First()).ToReadOnlyCollection();
             MapperMock.Setup(m => m.Map<IReadOnlyCollection<LeagueModel>>(leagues)).Returns(models);

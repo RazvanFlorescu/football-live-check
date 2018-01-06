@@ -7,8 +7,8 @@ namespace FootballLiveCheck.Data.Mappings
     {
         public LeagueMapping(ModelBuilder builder)
         {
-            builder.Entity<League>()
-                .HasKey(c => c.Id);
+            var entityBuilder = builder.Entity<League>();
+            entityBuilder.HasOne(l => l.Region).WithMany().HasForeignKey(l => l.RegionId);
         }
     }
 }

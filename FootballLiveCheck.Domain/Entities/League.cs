@@ -1,31 +1,47 @@
-﻿namespace FootballLiveCheck.Domain.Entities
+﻿using System;
+
+namespace FootballLiveCheck.Domain.Entities
 {
-    public class League : BaseEntity
+    public class League : ApiEntity
     {
         private League()
         {
         }
-
-        public int ApiId { get; private set; }
+        
         public string ShortName { get; private set; }
-        public string FullName { get; private set; }
-        public string RegionName { get; private set; }
-        public string FlagURL { get; private set; }
-        public string RegionFlagURL { get; private set; }
 
-        public static League Create(int apiId, string shortName, string fullName, string regionName, string flagURL, string regionFlagURL)
+        public string FullName { get; private set; }
+
+        public string FlagURL { get; private set; }
+
+        public int RegionId { get; private set; }
+
+        public virtual Region Region { get; private set; }
+
+        public static League Create(int apiId, string shortName, string fullName, string flagURL, Region region)
         {
             return new League
             {
-                ApiId = apiId,
+                Id = apiId,
                 ShortName = shortName,
                 FullName = fullName,
-                RegionName = regionName,
                 FlagURL = flagURL,
-                RegionFlagURL = regionFlagURL
+                Region = region
             };
         }
 
-      
+        public static League Create(int apiId, string shortName, string fullName, string flagURL, int regionId)
+        {
+            return new League
+            {
+                Id = apiId,
+                ShortName = shortName,
+                FullName = fullName,
+                FlagURL = flagURL,
+                RegionId = regionId
+            };
+        }
+
+
     }
 }

@@ -7,7 +7,7 @@ namespace FootballLiveCheck.Tests.Shared.Factories
     public static class TeamFactory
     {
         public static TeamModel GetModel(string fullName, string shortName,
-            int apiId, string shirtUrl)
+            int apiId, string shirtUrl, Arena arena)
         {
             return new TeamModel
             {
@@ -15,9 +15,7 @@ namespace FootballLiveCheck.Tests.Shared.Factories
                 ShortName = shortName,
                 ApiId = apiId,
                 ShirtUrl = shirtUrl,
-                //ArenaCapacity = arenaCapacity,
-                //ArenaId = arenaId,
-                //ArenaName = arenaName
+                Arena = ArenaFactory.GetModel(arena)
             };
         }
 
@@ -27,19 +25,17 @@ namespace FootballLiveCheck.Tests.Shared.Factories
             {
                 FullName = team.FullName,
                 ShortName = team.ShortName,
-                ApiId = team.ApiId,
+                ApiId = team.Id,
                 ShirtUrl = team.ShirtUrl,
-                //ArenaCapacity = team.ArenaCapacity,
-                //ArenaId = team.ArenaId,
-                //ArenaName = team.ArenaName
+                Arena = ArenaFactory.GetModel(team.Arena)
             };
         }
 
         public static Team GetEntity(string fullName, string shortName,
-            int apiId, string shirtUrl, int arenaId, int arenaCapacity, string arenaName)
+            int apiId, string shirtUrl, Arena arena)
         {
             return Team.Create(fullName, shortName,
-                        apiId, shirtUrl);
+                        apiId, shirtUrl,arena);
         }
        
        

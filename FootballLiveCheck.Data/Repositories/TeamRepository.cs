@@ -5,13 +5,13 @@ using FootballLiveCheck.Domain.Repositories;
 
 namespace FootballLiveCheck.Data.Repositories
 {
-    public class TeamRepository : BaseRepository<Team>, ITeamRepository
+    public class TeamRepository : BaseApiRepository<Team>, ITeamRepository
     {
         public TeamRepository(DatabaseContext dbContext) : base(dbContext)
         {
         }
 
-        public IQueryable<Team> GetTeamsByLeagueId(Guid leagueId)
+        public IQueryable<Team> GetTeamsByLeagueId(int leagueId)
         {
             return entitiesSet.Where(e => e.Id == leagueId).AsQueryable();
         }

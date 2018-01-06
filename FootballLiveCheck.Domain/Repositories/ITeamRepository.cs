@@ -4,8 +4,8 @@ using FootballLiveCheck.Domain.Entities;
 
 namespace FootballLiveCheck.Domain.Repositories
 {
-    public interface ITeamRepository : IBaseRepository<Team>
+    public interface ITeamRepository : IBaseApiRepository<Team>
     {
-        IQueryable<Team> GetTeamsByLeagueId(Guid leagueId);
+        IQueryable<Team> GetTeamsByLeagueId(int leagueId);
     }
 }

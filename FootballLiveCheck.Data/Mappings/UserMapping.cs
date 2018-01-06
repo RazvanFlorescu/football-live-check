@@ -7,8 +7,7 @@ namespace FootballLiveCheck.Data.Mappings
     {
         public UserMapping(ModelBuilder builder)
         {
-            builder.Entity<User>()
-                .HasKey(c => c.Id);
+            builder.Entity<User>();
         }
     }
 }

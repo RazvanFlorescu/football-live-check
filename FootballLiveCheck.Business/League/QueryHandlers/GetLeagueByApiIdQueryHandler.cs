@@ -21,7 +21,7 @@ namespace FootballLiveCheck.Business.League.QueryHandlers
         public GetLeagueByApiIdQueryResult Retrieve(GetLeagueByApiIdQuery query)
         {
             EnsureArg.IsNotNull(query);
-            return new GetLeagueByApiIdQueryResult(Mapper.Map<LeagueModel>(this.leagueRepository.GetByApiId(query.ApiId)));
+            return new GetLeagueByApiIdQueryResult(Mapper.Map<LeagueModel>(this.leagueRepository.GetById(query.ApiId)));
         }
     }
 }

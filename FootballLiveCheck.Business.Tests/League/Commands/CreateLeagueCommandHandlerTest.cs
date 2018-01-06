@@ -3,6 +3,7 @@ using FluentAssertions;
 
 using FootballLiveCheck.Business.League.Commands;
 using FootballLiveCheck.Business.League.CommandsHandlers;
+using FootballLiveCheck.Domain.Entities;
 using FootballLiveCheck.Domain.Repositories;
 using FootballLiveCheck.Tests.Shared;
 using FootballLiveCheck.Tests.Shared.Factories;
@@ -39,7 +40,8 @@ namespace FootballLiveCheck.Business.Tests.League.Commands
 
         protected override CreateLeagueCommand CreateCommand()
         {
-            var model = LeagueFactory.GetModel(20,"LSTN","LeagueFullTestName","TestRegion","https://www.flagTest.png", "https://www.regionflagTest.png");
+            var regionmodel = Region.Create("region", "www.test.com");
+            var model = LeagueFactory.GetModel(20,"LSTN","LeagueFullTestName","https://www.flagTest.png",regionmodel );
             return new CreateLeagueCommand(model);
         }
     }

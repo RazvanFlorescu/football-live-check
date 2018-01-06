@@ -2,7 +2,7 @@
 
 namespace FootballLiveCheck.Domain.Entities
 {
-    public class Team : BaseEntity
+    public class Team : ApiEntity
     {
         private Team()
         {
@@ -12,29 +12,23 @@ namespace FootballLiveCheck.Domain.Entities
 
         public string ShortName { get; private set; }
 
-        public int ApiId { get; private set; }
-
         public string ShirtUrl { get; private set; }
 
-        //public int ArenaId { get; private set; }
+        public int ArenaId { get; private set; }
 
-        //public int ArenaCapacity { get; private set; }
-
-        //public string ArenaName { get; private set; }
+        public virtual Arena Arena { get; private set; }
         
         public static Team Create(string fullName, string shortName,
-            int apiId, string shirtUrl)
+            int apiId, string shirtUrl, Arena arena)
         {
             return new Team
             {
               
                FullName=fullName,
                ShortName = shortName,
-               ApiId = apiId,
+               Id = apiId,
                ShirtUrl = shirtUrl,
-               //ArenaCapacity = arenaCapacity,
-               //ArenaId = arenaId,
-               //ArenaName = arenaName
+               Arena = arena
             };
         }
         

@@ -66,3 +66,24 @@ C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Infrastructure
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.AssemblyInfo.cs
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.dll
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.deps.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.csprojResolveAssemblyReference.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.AssemblyInfo.cs
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\obj\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml

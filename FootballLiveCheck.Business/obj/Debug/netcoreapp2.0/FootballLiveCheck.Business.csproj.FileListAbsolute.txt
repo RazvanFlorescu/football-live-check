@@ -50,3 +50,16 @@ C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business\obj\D
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.deps.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csprojResolveAssemblyReference.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csproj.CoreCompileInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfoInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb

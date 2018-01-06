@@ -12,7 +12,7 @@
     <PackageReference Include="Autofac" Version="4.6.2" />
     <PackageReference Include="Autofac.Configuration" Version="4.0.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
-    <PackageReference Include="AutoMapper" Version="6.2.1" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
     <PackageReference Include="Ensure.That" Version="7.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
@@ -22,6 +22,13 @@
     <ProjectReference Include="..\FootballLiveCheck.Business\FootballLiveCheck.Business.csproj" />
     <ProjectReference Include="..\FootballLiveCheck.CqrsCore\FootballLiveCheck.CqrsCore.csproj" />
     <ProjectReference Include="..\FootballLiveCheck.Data\FootballLiveCheck.Data.csproj" />
+    <ProjectReference Include="..\FootballLiveCheck.DbSyncronizer\FootballLiveCheck.DbSynchronizer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.http.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

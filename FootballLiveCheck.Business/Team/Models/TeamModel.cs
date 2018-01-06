@@ -1,5 +1,6 @@
 ﻿using System;
 using FootballLiveCheck.Business.Shared;
+using FootballLiveCheck.Domain.Entities;
 
 namespace FootballLiveCheck.Business.Team.Models
 {
@@ -14,11 +15,9 @@ namespace FootballLiveCheck.Business.Team.Models
 
         public string ShirtUrl { get; set; }
 
-        //public int ArenaId { get; set; }
+        public ArenaModel Arena { get; set; }
 
-        //public int ArenaCapacity { get; set; }
 
-        //public string ArenaName { get; set; }
 
     }
 }

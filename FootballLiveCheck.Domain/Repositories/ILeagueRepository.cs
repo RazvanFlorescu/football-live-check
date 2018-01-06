@@ -2,7 +2,7 @@
 
 namespace FootballLiveCheck.Domain.Repositories
 {
-    public interface ILeagueRepository : IBaseRepository<League>
+    public interface ILeagueRepository : IBaseApiRepository<League>
     {
       
     }

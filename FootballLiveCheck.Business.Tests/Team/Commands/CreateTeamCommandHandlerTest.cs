@@ -2,6 +2,7 @@
 using FluentAssertions;
 using FootballLiveCheck.Business.Team.CommandHandlers;
 using FootballLiveCheck.Business.Team.Commands;
+using FootballLiveCheck.Domain.Entities;
 using FootballLiveCheck.Domain.Repositories;
 using FootballLiveCheck.Tests.Shared;
 using FootballLiveCheck.Tests.Shared.Factories;
@@ -38,8 +39,9 @@ namespace FootballLiveCheck.Business.Tests.Team.Commands
 
         protected override CreateTeamCommand CreateCommand()
         {
+            Arena arena = Arena.Create(1, "arena", 121);
             var model = TeamFactory.GetModel("TeamTestName","ShortName",
-                  20, "url");
+                  20, "url",arena);
             return new CreateTeamCommand(model);
         }
     }

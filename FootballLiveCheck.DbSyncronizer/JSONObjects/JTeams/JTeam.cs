@@ -1,11 +1,12 @@
-﻿namespace FootballLiveCheck.DbSynchronizer.JSONObjects.JTeams
+﻿using FootballLiveCheck.Domain;
+
+namespace FootballLiveCheck.DbSynchronizer.JSONObjects.JTeams
 {
-    public class JTeam
+    public class JTeam : BaseJsonObject
     {
         public string Name { get; set; }
 
-        public int Dbid { get; set; }
-
+      
         public bool IsNational { get; set; }
 
         public string ShirtUrl { get; set; }
@@ -14,6 +15,6 @@
 
         public string ShortCode { get; set; }
 
-       
+        public JArena Arena { get; set; }
     }
 }

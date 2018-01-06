@@ -6,6 +6,7 @@ using FootballLiveCheck.Business.Team.Models;
 using FootballLiveCheck.Business.Team.Queries;
 using FootballLiveCheck.Business.Team.QueryHandlers;
 using FootballLiveCheck.Business.Team.QueryResults;
+using FootballLiveCheck.Domain.Entities;
 using FootballLiveCheck.Domain.Repositories;
 using FootballLiveCheck.Tests.Shared;
 using FootballLiveCheck.Tests.Shared.Extensions;
@@ -30,8 +31,10 @@ namespace FootballLiveCheck.Business.Tests.Team.Queries
         [TestMethod]
         public void Given_Retrieve_When_PassedValidQuery_Then_Should_ReturnAllTeams()
         {
+            Arena arena = Arena.Create(1,"arena",121);
+           
             var teams = TeamFactory.GetEntity("TeamTestName", "ShortName",
-                20, "url", 12, 1111, "Ghencea").ToQueryableCollection();
+                20, "url",arena).ToQueryableCollection();
             RepositoryMock.Setup(r => r.GetAll()).Returns(teams);
             var models = TeamFactory.GetModel(teams.First()).ToReadOnlyCollection();
             MapperMock.Setup(m => m.Map<IReadOnlyCollection<TeamModel>>(teams)).Returns(models);

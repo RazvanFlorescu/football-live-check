@@ -26,3 +26,17 @@ C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business.In
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.dll
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.pdb
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.csprojResolveAssemblyReference.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.deps.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.runtimeconfig.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.runtimeconfig.dev.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.csprojResolveAssemblyReference.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.csproj.CoreCompileInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.AssemblyInfoInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.AssemblyInfo.cs
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.pdb

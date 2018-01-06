@@ -38,3 +38,23 @@ C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Test.Shared
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.AssemblyInfo.cs
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.dll
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.deps.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.runtimeconfig.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.runtimeconfig.dev.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.csprojResolveAssemblyReference.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.csproj.CoreCompileInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.AssemblyInfoInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.AssemblyInfo.cs
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Test.Shared\obj\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.pdb

@@ -6,9 +6,9 @@ namespace FootballLiveCheck.Business.Team.QueryResults
 {
     public class GetTeamsByLeagueIdQuery : IQuery
     {
-        public Guid LeagueId { get; private set; }
+        public int LeagueId { get; private set; }
 
-        public GetTeamsByLeagueIdQuery(Guid leagueId)
+        public GetTeamsByLeagueIdQuery(int leagueId)
         {
             EnsureArg.IsNotNull(leagueId);
             this.LeagueId = leagueId;

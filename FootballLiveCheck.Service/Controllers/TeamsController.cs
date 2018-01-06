@@ -36,7 +36,7 @@ namespace FootballLiveCheck.Service.Controllers
         }
 
         [HttpGet("{teamId}")]
-        public IActionResult GetTeamById([FromRoute] Guid teamId)
+        public IActionResult GetTeamById([FromRoute] int teamId)
         {
             var query = new GetTeamByIdQuery(teamId);
             var result = QueryDispatcher.Retrive<GetTeamByIdQueryResult, GetTeamByIdQuery>(query);
@@ -48,7 +48,7 @@ namespace FootballLiveCheck.Service.Controllers
         }
 
         [HttpGet("byLeague/{leagueId}")]
-        public IActionResult GetTeamsByLeagueId([FromRoute] Guid leagueId)
+        public IActionResult GetTeamsByLeagueId([FromRoute] int leagueId)
         {
             var query = new GetTeamsByLeagueIdQuery(leagueId);
             var result = QueryDispatcher.Retrive<GetTeamsByLeagueIdQueryResult, GetTeamsByLeagueIdQuery>(query);

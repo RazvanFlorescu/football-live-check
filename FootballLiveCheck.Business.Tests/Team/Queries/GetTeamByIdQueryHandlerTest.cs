@@ -5,6 +5,7 @@ using FluentAssertions;
 using FootballLiveCheck.Business.Team.Models;
 using FootballLiveCheck.Business.Team.QueryHandlers;
 using FootballLiveCheck.Business.Team.QueryResults;
+using FootballLiveCheck.Domain.Entities;
 using FootballLiveCheck.Domain.Repositories;
 using FootballLiveCheck.Tests.Shared;
 using FootballLiveCheck.Tests.Shared.Extensions;
@@ -17,7 +18,7 @@ namespace FootballLiveCheck.Business.Tests.Team.Queries
     public class GetTeamByIdQueryHandlerTest : BaseQueryHandlerTest<GetTeamByIdQueryHandler, GetTeamByIdQuery,
         GetTeamByIdQueryResult, ITeamRepository>
     {
-        private readonly Guid id = new Guid("7FE4DD91-5D76-4E36-BB09-8AF33C1E5C24");
+        private readonly int id = 12;
         private readonly Guid leagueId = new Guid("555F951D-C321-4ED2-8ADA-F0DEAB53C557");
 
         [TestMethod]
@@ -31,8 +32,9 @@ namespace FootballLiveCheck.Business.Tests.Team.Queries
         [TestMethod]
         public void Given_Retrieve_When_PassedValidQuery_Then_Should_ReturnTeamById()
         {
+            Arena arena = Arena.Create(1, "arena", 121);
             var team = TeamFactory.GetEntity("TeamTestName", "ShortName",
-                20, "url", 12, 1111, "Ghencea");
+                20, "url", arena);
             RepositoryMock.Setup(r => r.GetById(id)).Returns(team);
             var model = TeamFactory.GetModel(team);
             MapperMock.Setup(m => m.Map<TeamModel>(team)).Returns(model);

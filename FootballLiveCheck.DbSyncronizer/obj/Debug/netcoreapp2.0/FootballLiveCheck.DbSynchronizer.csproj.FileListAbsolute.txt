@@ -17,3 +17,14 @@ C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.DbSyncronizer\
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.deps.json
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.csprojResolveAssemblyReference.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.csproj.CoreCompileInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.AssemblyInfoInputs.cache
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.AssemblyInfo.cs
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
