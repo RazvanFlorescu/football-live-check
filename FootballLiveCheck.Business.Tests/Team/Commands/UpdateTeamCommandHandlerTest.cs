@@ -39,7 +39,8 @@ namespace FootballLiveCheck.Business.Tests.Team.Commands
 
         protected override UpdateTeamCommand CreateCommand()
         {
-            var model = TeamFactory.GetModel("TeamTestName", leagueId, 20);
+            var model = TeamFactory.GetModel("TeamTestName","ShortName",
+            20, "url");
             return new UpdateTeamCommand(model);
         }
     }

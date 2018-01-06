@@ -11,6 +11,7 @@ namespace FootballLiveCheck.Data
             base.OnModelCreating(builder);
             TeamMapping teamMapping = new TeamMapping(builder);
             LeagueMapping leagueMapping = new LeagueMapping(builder);
+            UserMapping userMapping = new UserMapping(builder);
         }
         public DatabaseContext(DbContextOptions options) : base(options)
         {
@@ -19,5 +20,6 @@ namespace FootballLiveCheck.Data
 
         public DbSet<Team> Teams{ get; set; }
         public DbSet<League> Leagues { get; set; }
+        public DbSet<League> Users { get; set; }
     }
 }

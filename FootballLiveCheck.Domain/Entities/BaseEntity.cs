@@ -12,5 +12,6 @@ namespace FootballLiveCheck.Domain.Entities
 
         
         public Guid Id { get; private set; }
+        public int ApiId { get; private set; }
     }
 }

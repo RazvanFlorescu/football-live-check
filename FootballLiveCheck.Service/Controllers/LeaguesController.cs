@@ -3,15 +3,17 @@ using FootballLiveCheck.Business.League.Models;
 using FootballLiveCheck.Business.League.Queries;
 using FootballLiveCheck.Business.League.QueryResults;
 using FootballLiveCheck.CqrsCore.Dispatchers;
+using FootballLiveCheck.Domain.Repositories;
 using FootballLiveCheck.Service.Common;
 using Microsoft.AspNetCore.Mvc;
-
 
 namespace FootballLiveCheck.Service.Controllers
 {
     [Route("api/leagues")]
     public class LeaguesController : BaseController
     {
+        protected ILeagueRepository leagueRepository;
+
         public LeaguesController(ICommandDispatcher commandDispatcher, IQueryDispatcher queryDispatcher) : base(
             commandDispatcher, queryDispatcher)
         {
@@ -32,6 +34,15 @@ namespace FootballLiveCheck.Service.Controllers
             var result = QueryDispatcher.Retrive<GetAllLeaguesQueryResult, GetAllLeaguesQuery>(query);
             return Ok(result);
         }
+
+        [HttpGet("{leagueApiId}")]
+        public IActionResult GetLeaguesByApiId([FromRoute] int leagueId)
+        {
+            var query = new GetLeagueByApiIdQuery(leagueId);
+            var result = QueryDispatcher.Retrive<GetLeagueByApiIdQueryResult, GetLeagueByApiIdQuery>(query);
+            return Ok(result);
+        }
+
 
         //[HttpGet("{leagueId}")]
         //public IActionResult GetLeagueById([FromRoute] Guid leagueId)
@@ -58,13 +69,13 @@ namespace FootballLiveCheck.Service.Controllers
         //}
 
 
-        //[HttpDelete("")]
-        //public IActionResult DeleteLeague([FromBody] LeagueModel leagueModel)
-        //{
-        //    var command = new DeleteLeagueCommand(leagueModel);
-        //    CommandDispatcher.Handle(command);
-        //    return Ok();
-        //}
+        [HttpDelete("")]
+        public IActionResult DeleteLeague([FromBody] LeagueModel leagueModel)
+        {
+            var command = new DeleteLeagueCommand(leagueModel);
+            CommandDispatcher.Handle(command);
+            return Ok();
+        }
 
         //[HttpPut("{id}")]
         //public IActionResult UpdateLeague([FromBody]LeagueModel leagueModel)
@@ -73,8 +84,5 @@ namespace FootballLiveCheck.Service.Controllers
         //    CommandDispatcher.Handle(command);
         //    return Ok();
         //}
-
-
-
     }
 }

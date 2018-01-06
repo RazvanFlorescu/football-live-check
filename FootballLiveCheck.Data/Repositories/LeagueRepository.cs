@@ -1,4 +1,5 @@
-﻿using FootballLiveCheck.Domain.Entities;
+﻿using System.Linq;
+using FootballLiveCheck.Domain.Entities;
 using FootballLiveCheck.Domain.Repositories;
 
 namespace FootballLiveCheck.Data.Repositories
@@ -7,6 +8,10 @@ namespace FootballLiveCheck.Data.Repositories
     {
         public LeagueRepository(DatabaseContext dbContext) : base(dbContext)
         {
+
+          
         }
+      
+       
     }
 }

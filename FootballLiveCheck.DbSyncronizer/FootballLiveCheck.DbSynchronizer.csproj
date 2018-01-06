@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FootballLiveCheck.Business\FootballLiveCheck.Business.csproj" />
+    <ProjectReference Include="..\FootballLiveCheck.CqrsCore\FootballLiveCheck.CqrsCore.csproj" />
+    <ProjectReference Include="..\FootballLiveCheck.Data\FootballLiveCheck.Data.csproj" />
+    <ProjectReference Include="..\FootballLiveCheck.Domain\FootballLiveCheck.Domain.csproj" />
+    <ProjectReference Include="..\FootballLiveCheck.Infrastructure\FootballLiveCheck.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

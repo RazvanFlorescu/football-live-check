@@ -1,4 +1,5 @@
 ﻿using FootballLiveCheck.CqrsCore.Dispatchers;
+using FootballLiveCheck.Domain.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FootballLiveCheck.Service.Common
@@ -8,7 +9,7 @@ namespace FootballLiveCheck.Service.Common
     {
         protected IQueryDispatcher QueryDispatcher { get; }
         protected ICommandDispatcher CommandDispatcher { get; }
-
+       
         public BaseController(IQueryDispatcher queryDispatcher)
         {
             QueryDispatcher = queryDispatcher;

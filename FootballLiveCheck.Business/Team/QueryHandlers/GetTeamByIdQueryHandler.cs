@@ -9,7 +9,7 @@ namespace FootballLiveCheck.Business.Team.QueryHandlers
 {
     public class GetTeamByIdQueryHandler : DatabaseHandler, IQueryHandler<GetTeamByIdQuery, GetTeamByIdQueryResult>
     {
-        private readonly ITeamRepository teamRepository;
+        public readonly ITeamRepository teamRepository;
 
         public GetTeamByIdQueryHandler(IMapper mapper, ITeamRepository teamRepository) : base(mapper)
         {

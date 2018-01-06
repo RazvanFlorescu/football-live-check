@@ -21,5 +21,7 @@ namespace FootballLiveCheck.Domain.Repositories
         void Delete(T entity);
 
         void SaveChanges();
+
+        T GetByApiId(int id);
     }
 }

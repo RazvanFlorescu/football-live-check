@@ -39,7 +39,7 @@ namespace FootballLiveCheck.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Leagues");
+                    b.ToTable("League");
                 });
 
             modelBuilder.Entity("FootballLiveCheck.Domain.Entities.Team", b =>
@@ -47,11 +47,13 @@ namespace FootballLiveCheck.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<Guid>("LeagueId");
+                    b.Property<int>("ApiId");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("FullName");
 
-                    b.Property<int>("Points");
+                    b.Property<string>("ShirtUrl");
+
+                    b.Property<string>("ShortName");
 
                     b.HasKey("Id");
 
@@ -73,7 +75,7 @@ namespace FootballLiveCheck.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("User");
                 });
 #pragma warning restore 612, 618
         }

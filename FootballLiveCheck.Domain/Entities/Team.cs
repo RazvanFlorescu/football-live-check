@@ -8,19 +8,33 @@ namespace FootballLiveCheck.Domain.Entities
         {
         }
 
-        public string Name { get; private set; }
+        public string FullName { get; private set; }
 
-        public Guid LeagueId { get; private set; }
+        public string ShortName { get; private set; }
 
-        public int Points { get; private set; }
+        public int ApiId { get; private set; }
 
-        public static Team Create(string name, Guid leagueId, int points)
+        public string ShirtUrl { get; private set; }
+
+        //public int ArenaId { get; private set; }
+
+        //public int ArenaCapacity { get; private set; }
+
+        //public string ArenaName { get; private set; }
+        
+        public static Team Create(string fullName, string shortName,
+            int apiId, string shirtUrl)
         {
             return new Team
             {
-                Name = name,
-                LeagueId = leagueId,
-                Points = points
+              
+               FullName=fullName,
+               ShortName = shortName,
+               ApiId = apiId,
+               ShirtUrl = shirtUrl,
+               //ArenaCapacity = arenaCapacity,
+               //ArenaId = arenaId,
+               //ArenaName = arenaName
             };
         }
         

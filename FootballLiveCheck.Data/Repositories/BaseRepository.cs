@@ -36,7 +36,7 @@ namespace FootballLiveCheck.Data.Repositories
         {
             return entitiesSet.FirstOrDefault(e => e.Id == id);
         }
-
+       
         public void Add(T entity)
         {
             entitiesSet.Add(entity);
@@ -56,5 +56,10 @@ namespace FootballLiveCheck.Data.Repositories
         {
             dbContext.SaveChanges();
         }
+        public T GetByApiId(int id)
+        {
+            return entitiesSet.FirstOrDefault(e => e.ApiId == id);
+        }
+
     }
 }

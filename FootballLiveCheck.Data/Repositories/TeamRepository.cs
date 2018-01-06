@@ -13,7 +13,7 @@ namespace FootballLiveCheck.Data.Repositories
 
         public IQueryable<Team> GetTeamsByLeagueId(Guid leagueId)
         {
-            return entitiesSet.Where(e => e.LeagueId == leagueId).AsQueryable();
+            return entitiesSet.Where(e => e.Id == leagueId).AsQueryable();
         }
     }
 }

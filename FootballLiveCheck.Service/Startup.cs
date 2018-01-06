@@ -1,5 +1,9 @@
 ﻿using System;
 using AutoMapper;
+using FootballLiveCheck.CqrsCore.DependencyInjection;
+using FootballLiveCheck.DbSynchronizer.Synchronizers;
+using FootballLiveCheck.Domain.Repositories;
+using FootballLiveCheck.Infrastructure.Dispatchers;
 using FootballLiveCheck.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,9 +14,11 @@ namespace FootballLiveCheck.Service
 {
     public class Startup
     {
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+           
         }
 
         public IConfiguration Configuration { get; }
@@ -24,16 +30,23 @@ namespace FootballLiveCheck.Service
             services.AddEfCore(connectionString);
             services.AddMvc();
             services.AddAutoMapper();
+           
             return services.AddAutofac();
            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IDependencyScope scope)
         {
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
+            var leagueRepository = scope.Resolve<ILeagueRepository>();
+            var leaguesSynchronizer = new LeaguesSynchronizer(leagueRepository);
+            leaguesSynchronizer.Synchronize();
 
+            var teamRepository = scope.Resolve<ITeamRepository>();
+            var teamsSynchronizer = new TeamSynchronizer(teamRepository);
+            teamsSynchronizer.Synchronize();
             app.UseMvc();
         }
     }

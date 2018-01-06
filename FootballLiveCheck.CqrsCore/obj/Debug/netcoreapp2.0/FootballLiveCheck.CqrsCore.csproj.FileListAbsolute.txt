@@ -33,3 +33,4 @@ C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.CqrsCore\obj\D
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.AssemblyInfo.cs
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.csprojResolveAssemblyReference.cache

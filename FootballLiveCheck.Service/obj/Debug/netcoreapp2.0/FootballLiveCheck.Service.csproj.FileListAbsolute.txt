@@ -82,3 +82,5 @@ C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Service\obj\De
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
 C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb
+C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb

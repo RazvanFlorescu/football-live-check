@@ -31,7 +31,8 @@ namespace FootballLiveCheck.Business.Tests.Team.Queries
         [TestMethod]
         public void Given_Retrieve_When_PassedValidQuery_Then_Should_ReturnTeamById()
         {
-            var team = TeamFactory.GetEntity("Steaua", leagueId, 20);
+            var team = TeamFactory.GetEntity("TeamTestName", "ShortName",
+                20, "url", 12, 1111, "Ghencea");
             RepositoryMock.Setup(r => r.GetById(id)).Returns(team);
             var model = TeamFactory.GetModel(team);
             MapperMock.Setup(m => m.Map<TeamModel>(team)).Returns(model);

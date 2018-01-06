@@ -27,6 +27,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FootballLiveCheck.Business\FootballLiveCheck.Business.csproj" />
     <ProjectReference Include="..\FootballLiveCheck.CqrsCore\FootballLiveCheck.CqrsCore.csproj" />
+    <ProjectReference Include="..\FootballLiveCheck.DbSyncronizer\FootballLiveCheck.DbSynchronizer.csproj" />
     <ProjectReference Include="..\FootballLiveCheck.Infrastructure\FootballLiveCheck.Infrastructure.csproj" />
   </ItemGroup>
 

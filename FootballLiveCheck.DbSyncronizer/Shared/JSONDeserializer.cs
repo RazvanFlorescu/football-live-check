@@ -1,0 +1,22 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using EnsureThat;
+using Newtonsoft.Json;
+
+namespace FootballLiveCheck.DbSynchronizer.Shared
+{
+    public class JSONDeserializer
+    {
+
+        public static T DeserializeAsSingleObject<T>(string json) where T : new()
+        {
+            EnsureArg.IsNotNull(json);
+            return JsonConvert.DeserializeObject<T>(json);
+        }
+        public static ICollection<T> DeserializeAsList<T>(string json) where T : new()
+        {
+            EnsureArg.IsNotNull(json);
+            return JsonConvert.DeserializeObject<ICollection<T>>(json);
+        }
+    }
+}

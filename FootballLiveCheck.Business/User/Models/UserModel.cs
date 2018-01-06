@@ -1,4 +1,4 @@
-﻿using FootballLiveCheck.Business.Team.Models;
+﻿using FootballLiveCheck.Business.Shared;
 
 namespace FootballLiveCheck.Business.User.Models
 {

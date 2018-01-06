@@ -2515,7 +2515,7 @@
       ]
     },
     "Newtonsoft.Json/9.0.1": {
-      "sha512": "byUP8jYTqpijQe9AcaG4m7HSgP50gC9GOEdrDKbCjevYQm4xHgaJQbaVGvJslqEBOp1AMPbH/JzU28IWOvQClg==",
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "type": "package",
       "path": "newtonsoft.json/9.0.1",
       "files": [
@@ -5540,7 +5540,7 @@
       ]
     },
     "System.Xml.XPath/4.0.1": {
-      "sha512": "El6f+VofjjvsxP6Cqu2hqY1FTpPXWGwkMof3HNnsO6sQPz6GRvqcYdPLIli3JfmvUb2lNJOs1RPGWXEcM/oKwQ==",
+      "sha512": "UWd1H+1IJ9Wlq5nognZ/XJdyj8qPE4XufBUkAW59ijsCPjZkZe0MUzKKJFBr+ZWBe5Wq1u1d5f2CYgE93uH7DA==",
       "type": "package",
       "path": "system.xml.xpath/4.0.1",
       "files": [
@@ -5577,7 +5577,7 @@
       ]
     },
     "System.Xml.XPath.XmlDocument/4.0.1": {
-      "sha512": "ChYW8Wzx1Cb9S63QronA8UJ4vRvv9YrCPNi+KaXFWgpQ7itENTO34uqjO0YB/ucPyklM+C45HvG2rkXrAye4sA==",
+      "sha512": "Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "type": "package",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "files": [
@@ -5621,7 +5621,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cristian\\.nuget\\packages\\": {},
+    "C:\\Users\\codry\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5630,17 +5630,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
       "projectName": "FootballLiveCheck.Business.IntegrationTests",
-      "projectPath": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
-      "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cristian\\Source\\Repos\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\obj\\",
+      "projectPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
+      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\codry\\source\\repos\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5674,7 +5674,7 @@
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0",
+            "version": "2.0.0",
             "autoReferenced": true
           },
           "Microsoft.NET.Test.Sdk": {

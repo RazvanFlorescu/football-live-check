@@ -5,10 +5,20 @@ namespace FootballLiveCheck.Business.Team.Models
 {
     public class TeamModel : BaseModel
     {
-        public string Name { get; set; }
+       
+        public string FullName { get; set; }
 
-        public Guid LeagueId { get; set; }
+        public string ShortName { get; set; }
 
-        public int Points { get; set; }
+        public int ApiId { get; set; }
+
+        public string ShirtUrl { get; set; }
+
+        //public int ArenaId { get; set; }
+
+        //public int ArenaCapacity { get; set; }
+
+        //public string ArenaName { get; set; }
+
     }
 }

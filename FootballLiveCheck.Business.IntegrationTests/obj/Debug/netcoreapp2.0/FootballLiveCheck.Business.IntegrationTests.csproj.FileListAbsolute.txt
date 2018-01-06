@@ -25,3 +25,4 @@ C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business.In
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.AssemblyInfo.cs
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.dll
 C:\Users\Cristian\Source\Repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.pdb
+C:\Users\codry\source\repos\football-live-check\FootballLiveCheck.Business.IntegrationTests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.IntegrationTests.csprojResolveAssemblyReference.cache
