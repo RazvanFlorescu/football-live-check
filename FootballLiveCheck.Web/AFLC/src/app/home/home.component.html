@@ -1,0 +1,16 @@
+<div class="wrapper">
+
+    <div class="header">
+     <p>your number ({{nrr}})</p>
+    </div>
+    <div class="content">    
+        <div class="leagues">
+          <p class="cotainer-leagues" *ngFor="let str of strs" >
+            {{str}}
+          </p>
+        </div>
+        <div class="matches">
+          <input type="submit" class="btn" value="Buton" (click)="addItem()">
+        </div>
+    </div>
+</div>
