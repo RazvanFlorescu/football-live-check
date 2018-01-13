@@ -6792,7 +6792,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Razvan\\.nuget\\packages\\": {},
+    "C:\\Users\\codry\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -6801,17 +6801,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
+      "projectUniqueName": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
       "projectName": "FootballLiveCheck.Data",
-      "projectPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
-      "packagesPath": "C:\\Users\\Razvan\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Data\\obj\\",
+      "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Data\\FootballLiveCheck.Data.csproj",
+      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
+      "outputPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Razvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6824,8 +6824,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
-              "projectPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
+            "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
+              "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
             }
           }
         }
@@ -6841,25 +6841,25 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[2.0.1, )"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "target": "Package",
-            "version": "[2.0.1, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer.Design": {
-            "target": "Package",
-            "version": "[1.1.4, )"
+            "version": "2.0.1"
           },
           "Microsoft.EntityFrameworkCore.Tools.DotNet": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "2.0.0"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "2.0.1"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+            "target": "Package",
+            "version": "1.1.4"
           }
         },
         "imports": [

@@ -107,3 +107,26 @@ E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\De
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.deps.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.runtimeconfig.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.runtimeconfig.dev.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Infrastructure.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.csprojResolveAssemblyReference.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.csproj.CoreCompileInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfoInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb

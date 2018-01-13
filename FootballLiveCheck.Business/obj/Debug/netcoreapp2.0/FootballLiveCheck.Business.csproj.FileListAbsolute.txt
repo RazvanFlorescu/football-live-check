@@ -63,3 +63,16 @@ E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\D
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.deps.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csprojResolveAssemblyReference.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.csproj.CoreCompileInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfoInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.AssemblyInfo.cs
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb

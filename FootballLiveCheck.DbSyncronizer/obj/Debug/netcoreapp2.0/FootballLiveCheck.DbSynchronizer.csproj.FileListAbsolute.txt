@@ -28,3 +28,14 @@ E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.AssemblyInfo.cs
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.deps.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.csprojResolveAssemblyReference.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.csproj.CoreCompileInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.AssemblyInfoInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.AssemblyInfo.cs
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb

@@ -5999,7 +5999,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Razvan\\.nuget\\packages\\": {},
+    "C:\\Users\\codry\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -6008,17 +6008,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Test.Shared\\FootballLiveCheck.Tests.Shared.csproj",
+      "projectUniqueName": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Test.Shared\\FootballLiveCheck.Tests.Shared.csproj",
       "projectName": "FootballLiveCheck.Tests.Shared",
-      "projectPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Test.Shared\\FootballLiveCheck.Tests.Shared.csproj",
-      "packagesPath": "C:\\Users\\Razvan\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Test.Shared\\obj\\",
+      "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Test.Shared\\FootballLiveCheck.Tests.Shared.csproj",
+      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
+      "outputPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Test.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Razvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6031,14 +6031,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
-              "projectPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
+            "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
+              "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
             },
-            "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj": {
-              "projectPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj"
+            "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj": {
+              "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj"
             },
-            "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj": {
-              "projectPath": "E:\\Projects\\dotNET Projects\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj"
+            "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj": {
+              "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj"
             }
           }
         }
@@ -6052,34 +6052,34 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "AutoMapper": {
+          "MSTest.TestFramework": {
             "target": "Package",
-            "version": "[6.2.2, )"
+            "version": "1.1.18"
           },
           "FluentAssertions": {
             "target": "Package",
-            "version": "[4.19.4, )"
+            "version": "4.19.4"
           },
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "[1.1.18, )"
-          },
-          "MSTest.TestFramework": {
-            "target": "Package",
-            "version": "[1.1.18, )"
-          },
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "[15.3.0-preview-20170628-02, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "1.1.18"
           },
           "Moq": {
             "target": "Package",
-            "version": "[4.7.145, )"
+            "version": "4.7.145"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0.0",
+            "autoReferenced": true
+          },
+          "AutoMapper": {
+            "target": "Package",
+            "version": "6.2.2"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "15.3.0-preview-20170628-02"
           }
         },
         "imports": [

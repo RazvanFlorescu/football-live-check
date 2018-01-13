@@ -43,3 +43,12 @@ E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\D
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.AssemblyInfo.cs
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.deps.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.csprojResolveAssemblyReference.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.csproj.CoreCompileInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.AssemblyInfoInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.AssemblyInfo.cs
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.CqrsCore\obj\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
