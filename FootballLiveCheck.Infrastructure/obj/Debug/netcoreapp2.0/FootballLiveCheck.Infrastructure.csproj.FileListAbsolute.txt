@@ -106,3 +106,5 @@ D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Infrastruc
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Data.pdb
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+E:\Projects\football-live-check\FootballLiveCheck.Infrastructure\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb

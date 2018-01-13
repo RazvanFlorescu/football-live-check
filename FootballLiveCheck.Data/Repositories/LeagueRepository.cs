@@ -7,11 +7,6 @@ namespace FootballLiveCheck.Data.Repositories
     public class LeagueRepository  : BaseApiRepository<League>, ILeagueRepository
     {
         public LeagueRepository(DatabaseContext dbContext) : base(dbContext)
-        {
-
-          
-        }
-      
-       
+        { }
     }
 }

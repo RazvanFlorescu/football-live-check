@@ -17,6 +17,11 @@
     <Folder Include="Match\QueryHandlers\" />
     <Folder Include="Match\Queries\" />
     <Folder Include="Resources\" />
+    <Folder Include="Subscriber\EventHandlers\" />
+    <Folder Include="Subscriber\Events\" />
+    <Folder Include="Subscriber\QueryResults\" />
+    <Folder Include="Subscriber\QueryHandlers\" />
+    <Folder Include="Subscriber\Queries\" />
     <Folder Include="User\EventHandlers\" />
     <Folder Include="User\Events\" />
     <Folder Include="Validators\" />

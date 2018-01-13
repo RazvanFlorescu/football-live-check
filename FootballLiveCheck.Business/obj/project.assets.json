@@ -3474,7 +3474,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\codry\\.nuget\\packages\\": {},
+    "C:\\Users\\rober\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3483,17 +3483,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj",
+      "projectUniqueName": "E:\\Projects\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj",
       "projectName": "FootballLiveCheck.Business",
-      "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj",
-      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
-      "outputPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business\\obj\\",
+      "projectPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Business\\FootballLiveCheck.Business.csproj",
+      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3506,11 +3506,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
-              "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
+            "E:\\Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj": {
+              "projectPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Domain\\FootballLiveCheck.Domain.csproj"
             },
-            "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj": {
-              "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj"
+            "E:\\Projects\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj": {
+              "projectPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.CqrsCore\\FootballLiveCheck.CqrsCore.csproj"
             }
           }
         }

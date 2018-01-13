@@ -130,3 +130,5 @@ D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\ob
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb

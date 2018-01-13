@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FootballLiveCheck.Domain.Entities
+﻿namespace FootballLiveCheck.Domain.Entities
 {
     public class Team : ApiEntity
     {
