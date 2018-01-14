@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\codry\\.nuget\\packages\\": {},
+    "C:\\Users\\rober\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,17 +12542,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Web\\FootballLiveCheck.Web.csproj",
+      "projectUniqueName": "E:\\Projects\\football-live-check\\FootballLiveCheck.Web\\FootballLiveCheck.Web.csproj",
       "projectName": "FootballLiveCheck.Web",
-      "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Web\\FootballLiveCheck.Web.csproj",
-      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
-      "outputPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Web\\obj\\",
+      "projectPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Web\\FootballLiveCheck.Web.csproj",
+      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
