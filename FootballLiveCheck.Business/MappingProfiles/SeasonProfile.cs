@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using FootballLiveCheck.DbSynchronizer.JSONObjects.JSeasons;
+using FootballLiveCheck.Business.Models.JSONObjects.JSeasons;
 using FootballLiveCheck.Domain;
 using FootballLiveCheck.Domain.Entities;
 
-namespace FootballLiveCheck.DbSynchronizer.MappingProfiles
+namespace FootballLiveCheck.Business.MappingProfiles
 {
     public class SeasonProfile : Profile
     {

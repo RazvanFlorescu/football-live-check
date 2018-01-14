@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using EnsureThat;
-using FootballLiveCheck.DbSynchronizer.JSONObjects;
 using FootballLiveCheck.Domain;
 using Newtonsoft.Json;
 

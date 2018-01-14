@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FootballLiveCheck.Domain.Entities
 {
@@ -10,12 +11,16 @@ namespace FootballLiveCheck.Domain.Entities
 
         public int HomeTeamId { get; private set; }
 
+        [NotMapped]
         public virtual Team HomeTeam { get; private set; }
 
         public int AwayTeamId { get; private set; }
 
+        [NotMapped]
         public virtual Team AwayTeam { get; private set; }
+
         public int AwayGoals { get; private set; }
+
         public string Start { get; private set; }
         
         public int SeasonId { get; private set; }

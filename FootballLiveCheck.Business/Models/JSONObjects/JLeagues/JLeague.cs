@@ -1,8 +1,7 @@
 ﻿using System;
-using FootballLiveCheck.DbSynchronizer.JSONObjects.JLeagues;
 using FootballLiveCheck.Domain;
 
-namespace FootballLiveCheck.DbSynchronizer.JSONObjects
+namespace FootballLiveCheck.Business.Models.JSONObjects.JLeagues
 {
     public class JLeague : BaseJsonObject
     {

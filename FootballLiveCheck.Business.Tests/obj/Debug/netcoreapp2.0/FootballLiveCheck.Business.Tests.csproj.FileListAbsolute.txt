@@ -64,3 +64,25 @@ E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.Tests
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.AssemblyInfo.cs
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.dll
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.deps.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.runtimeconfig.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.runtimeconfig.dev.json
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Tests.Shared.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.csprojResolveAssemblyReference.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.csproj.CoreCompileInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.AssemblyInfoInputs.cache
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.AssemblyInfo.cs
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Business.Tests\obj\Debug\netcoreapp2.0\FootballLiveCheck.Business.Tests.pdb

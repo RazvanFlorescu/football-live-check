@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace FootballLiveCheck.Domain.Entities
 {
@@ -8,25 +10,27 @@ namespace FootballLiveCheck.Domain.Entities
         {
         }
 
-        public string FullName { get; private set; }
+        public string Name { get; private set; }
 
         public string ShortName { get; private set; }
 
         public string ShirtUrl { get; private set; }
 
-        public int ArenaId { get; private set; }
+      // public int ArenaId { get; private set; }
 
         public virtual Arena Arena { get; private set; }
-        
+
+        public ICollection<Match> Matches { get; private set; }
+
         public static Team Create(string fullName, string shortName,
             int apiId, string shirtUrl, Arena arena)
         {
             return new Team
             {
               
-               FullName=fullName,
+               Name=fullName,
                ShortName = shortName,
-               Id = apiId,
+               DbId = apiId,
                ShirtUrl = shirtUrl,
                Arena = arena
             };

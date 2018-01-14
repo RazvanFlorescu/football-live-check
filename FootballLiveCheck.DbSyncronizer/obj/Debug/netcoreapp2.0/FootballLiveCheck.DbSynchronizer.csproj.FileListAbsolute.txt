@@ -39,3 +39,7 @@ D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncroni
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.AssemblyInfo.cs
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\obj\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.dll
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.Business.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.DbSyncronizer\bin\Debug\netcoreapp2.0\FootballLiveCheck.CqrsCore.pdb

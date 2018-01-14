@@ -1,8 +1,9 @@
-﻿using FootballLiveCheck.DbSynchronizer.JSONObjects.JSeasons;
-using FootballLiveCheck.DbSynchronizer.JSONObjects.JTeams;
+﻿using FootballLiveCheck.Business.Models.JSONObjects.JLeagues;
+using FootballLiveCheck.Business.Models.JSONObjects.JSeasons;
+using FootballLiveCheck.Business.Models.JSONObjects.JTeams;
 using FootballLiveCheck.Domain;
 
-namespace FootballLiveCheck.DbSynchronizer.JSONObjects.JMatches
+namespace FootballLiveCheck.Business.Models.JSONObjects.JMatches
 {
     public class JMatch : BaseJsonObject
     {

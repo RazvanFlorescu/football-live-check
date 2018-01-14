@@ -22,7 +22,7 @@ namespace FootballLiveCheck.Domain.Entities
         {
             return new League
             {
-                Id = apiId,
+                DbId = apiId,
                 ShortName = shortName,
                 FullName = fullName,
                 FlagURL = flagURL,
@@ -34,7 +34,7 @@ namespace FootballLiveCheck.Domain.Entities
         {
             return new League
             {
-                Id = apiId,
+                DbId = apiId,
                 ShortName = shortName,
                 FullName = fullName,
                 FlagURL = flagURL,

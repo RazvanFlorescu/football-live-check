@@ -15,7 +15,7 @@ namespace FootballLiveCheck.Tests.Shared.Factories
         {
             return new LeagueModel
             {
-                ApiId = league.Id,
+                ApiId = league.DbId,
                 ShortName = league.ShortName,
                 FullName = league.FullName,
                 FlagURL = league.FlagURL,

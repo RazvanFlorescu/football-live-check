@@ -1,6 +1,9 @@
 ﻿using System.Linq;
 using AutoMapper;
 using EnsureThat;
+using FootballLiveCheck.Business.MappingProfiles;
+using FootballLiveCheck.CqrsCore.DependencyInjection;
+using FootballLiveCheck.DbSynchronizer.Mappers;
 using FootballLiveCheck.DbSynchronizer.Shared;
 using FootballLiveCheck.Domain;
 using FootballLiveCheck.Domain.Entities;
@@ -13,12 +16,10 @@ namespace FootballLiveCheck.DbSynchronizer.Synchronizers
         where TEntity : ApiEntity
         where TJson : BaseJsonObject
     {
+        private readonly IJsonMapper<TEntity, TJson> mapper;
         private readonly IBaseApiRepository<TEntity> repository;
-        private readonly IMapper mapper;
 
-        public string RequestUrl(string endPoint) => BaseURL + endPoint + "?api_key=" + APIKey;
-
-        public EntitySynchronizer(IBaseApiRepository<TEntity> repository, IMapper mapper)
+        public EntitySynchronizer(IBaseApiRepository<TEntity> repository, IJsonMapper<TEntity, TJson> mapper)
         {
             EnsureArg.IsNotNull(repository);
             EnsureArg.IsNotNull(mapper);
@@ -34,22 +35,23 @@ namespace FootballLiveCheck.DbSynchronizer.Synchronizers
             var allJsonObjects = JSONDeserializer.DeserializeAsList<TJson>(json);
 
 
-            var entitiesToInsert = allJsonObjects.Where(e => !allEntities.Any(de => de.Id== e.DbId));
+            var entitiesToInsert = allJsonObjects.Where(e => !allEntities.Any(de => de.DbId == e.DbId));
+
             foreach (var jEntity in entitiesToInsert)
             {
-                var entity = mapper.Map<TEntity>(jEntity);
-                entity.SetId(jEntity.DbId);
+                var entity = mapper.Map(jEntity);
+                ////entity.SetId(jEntity.DbId);
                 repository.Add(entity);
             } //insert new Entities from Api
 
 
-            var entitiesToDelete = allEntities.Where(de => allJsonObjects.All(e => de.Id!= e.DbId));
+            var entitiesToDelete = allEntities.Where(de => allJsonObjects.All(e => de.DbId != e.DbId));
             foreach (var entity in entitiesToDelete)
                 repository.Delete(entity);
-            //delete entities that don't apear in Api
+            //delete entities that don't apear in ApTi
 
             var entitiesToUpdate =
-                allJsonObjects.Where(ae => allEntities.Any(de => de.Id== ae.DbId && !de.Equals(ae)));
+                allJsonObjects.Where(ae => allEntities.Any(de => de.DbId == ae.DbId && !de.Equals(ae)));
             foreach (var entity in entitiesToUpdate)
             {
                 var league = repository.GetById(entity.DbId);
@@ -57,6 +59,11 @@ namespace FootballLiveCheck.DbSynchronizer.Synchronizers
             } //update entities that changed their status 
 
             repository.SaveChanges();
+        }
+
+        public string RequestUrl(string endPoint)
+        {
+            return BaseURL + endPoint + "?api_key=" + APIKey;
         }
     }
 }

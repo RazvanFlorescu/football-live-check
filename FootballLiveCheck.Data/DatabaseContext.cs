@@ -1,7 +1,7 @@
 ﻿using FootballLiveCheck.Data.Mappings;
 using FootballLiveCheck.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-
+//using System.Data.Entity;
 namespace FootballLiveCheck.Data
 {
     public class DatabaseContext : DbContext
@@ -14,8 +14,9 @@ namespace FootballLiveCheck.Data
             new UserMapping(builder);
             new ArenaMappping(builder);
             new RegionMapping(builder);
-
+           
         }
+      
         public DatabaseContext(DbContextOptions options) : base(options)
         {
             Database.Migrate();

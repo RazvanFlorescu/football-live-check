@@ -12,7 +12,7 @@ namespace FootballLiveCheck.Tests.Shared.Factories
         {
             return new ArenaModel()
             {
-                DbId = arena.Id,
+                DbId = arena.DbId,
                 Capacity = arena.Capacity,
                 Name = arena.Name
             };

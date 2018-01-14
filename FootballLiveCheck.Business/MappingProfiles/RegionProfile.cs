@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using FootballLiveCheck.DbSynchronizer.JSONObjects;
-using FootballLiveCheck.DbSynchronizer.JSONObjects.JLeagues;
-using FootballLiveCheck.Domain;
+using FootballLiveCheck.Business.Models.JSONObjects.JLeagues;
 using FootballLiveCheck.Domain.Entities;
 
-namespace FootballLiveCheck.DbSynchronizer.MappingProfiles
+namespace FootballLiveCheck.Business.MappingProfiles
 {
     public class RegionProfile : Profile
     {

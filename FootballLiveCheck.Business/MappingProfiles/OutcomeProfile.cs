@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using FootballLiveCheck.DbSynchronizer.JSONObjects.JMatches;
+using FootballLiveCheck.Business.Models.JSONObjects.JMatches;
 using FootballLiveCheck.Domain;
 using FootballLiveCheck.Domain.Entities;
 
-namespace FootballLiveCheck.DbSynchronizer.MappingProfiles
+namespace FootballLiveCheck.Business.MappingProfiles
 {
     public class OutcomeProfile : Profile
     {

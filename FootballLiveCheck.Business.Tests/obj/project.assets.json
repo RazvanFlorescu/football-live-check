@@ -1705,7 +1705,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "AutoMapper": "6.2.2",
+          "AutoMapper": "6.2.0",
           "Ensure.That": "7.1.0",
           "FootballLiveCheck.CqrsCore": "1.0.0",
           "FootballLiveCheck.Domain": "1.0.0"

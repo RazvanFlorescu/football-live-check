@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "AutoMapper/6.2.2": {
+      "AutoMapper/6.2.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -793,12 +793,12 @@
     }
   },
   "libraries": {
-    "AutoMapper/6.2.2": {
-      "sha512": "eGKcnJdoF5rYMWPUaSPtlWdvua9xw4hnQN5kM/X4AXLGKghrtPIaMv+RYoA3sj0kyZ3X6wZ1Qj67F+u0pCCPaw==",
+    "AutoMapper/6.2.0": {
+      "sha512": "BqguuSB2DDLdv/ohIfrvXCL+jWC6g284m4Xi/7snYcwoRAEPI0CdOb3EZjJ3MEYlZKDD5EFnN+jkr84NAUsN+Q==",
       "type": "package",
-      "path": "automapper/6.2.2",
+      "path": "automapper/6.2.0",
       "files": [
-        "automapper.6.2.2.nupkg.sha512",
+        "automapper.6.2.0.nupkg.sha512",
         "automapper.nuspec",
         "lib/net40/AutoMapper.dll",
         "lib/net40/AutoMapper.xml",
@@ -3466,7 +3466,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "AutoMapper >= 6.2.2",
+      "AutoMapper >= 6.2.0",
       "Ensure.That >= 7.1.0",
       "FootballLiveCheck.CqrsCore >= 1.0.0",
       "FootballLiveCheck.Domain >= 1.0.0",
@@ -3532,7 +3532,7 @@
           },
           "AutoMapper": {
             "target": "Package",
-            "version": "6.2.2"
+            "version": "6.2.0"
           },
           "Ensure.That": {
             "target": "Package",

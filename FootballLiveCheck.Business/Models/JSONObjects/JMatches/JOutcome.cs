@@ -1,4 +1,4 @@
-﻿namespace FootballLiveCheck.DbSynchronizer.JSONObjects.JMatches
+﻿namespace FootballLiveCheck.Business.Models.JSONObjects.JMatches
 {
     public class JOutcome
     {

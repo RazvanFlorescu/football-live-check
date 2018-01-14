@@ -15,7 +15,7 @@ namespace FootballLiveCheck.Domain.Entities
         {
             return new Arena()
             {
-                Id = dbid,
+                DbId = dbid,
                 Name= name,
                 Capacity = capacity
             };

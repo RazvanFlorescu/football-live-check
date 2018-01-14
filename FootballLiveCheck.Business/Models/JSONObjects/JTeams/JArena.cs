@@ -1,6 +1,6 @@
 ﻿using FootballLiveCheck.Domain;
 
-namespace FootballLiveCheck.DbSynchronizer.JSONObjects.JTeams
+namespace FootballLiveCheck.Business.Models.JSONObjects.JTeams
 {
     public class JArena : BaseJsonObject
     {

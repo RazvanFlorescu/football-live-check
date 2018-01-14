@@ -1,6 +1,6 @@
 ﻿using FootballLiveCheck.Domain;
 
-namespace FootballLiveCheck.DbSynchronizer.JSONObjects.JSeasons
+namespace FootballLiveCheck.Business.Models.JSONObjects.JSeasons
 {
     public class JSeason : BaseJsonObject
     {

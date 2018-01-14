@@ -1,6 +1,6 @@
 ﻿using FootballLiveCheck.Domain;
 
-namespace FootballLiveCheck.DbSynchronizer.JSONObjects.JLeagues
+namespace FootballLiveCheck.Business.Models.JSONObjects.JLeagues
 {
     public class JRegion : BaseJsonObject
     {

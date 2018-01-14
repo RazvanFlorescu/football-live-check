@@ -14,7 +14,7 @@ namespace FootballLiveCheck.Data.Repositories
 
         public T GetById(int id)
         {
-            return entitiesSet.FirstOrDefault(e => e.Id == id);
+            return entitiesSet.FirstOrDefault(e => e.DbId == id);
         }
 
         public new void SaveChanges()

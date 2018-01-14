@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "b44f30f2439e83390f6d737e8f91000e175fb375"
+    "signature": "6b71f679c0d2e74a7ff45843f6ad2c260888649a"
   },
   "compilationOptions": {
     "defines": [
@@ -131,6 +131,16 @@
         },
         "compile": {
           "lib/netstandard2.0/Ensure.That.dll": {}
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4194,6 +4204,7 @@
       },
       "FootballLiveCheck.Data/1.0.0": {
         "dependencies": {
+          "EntityFramework": "6.2.0",
           "FootballLiveCheck.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.Design": "2.0.1",
@@ -4213,6 +4224,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "3.2.0",
           "Autofac": "4.6.2",
           "Ensure.That": "7.1.0",
+          "FootballLiveCheck.Business": "1.0.0",
           "FootballLiveCheck.Domain": "1.0.0",
           "Newtonsoft.Json": "10.0.3"
         },
@@ -4478,6 +4490,13 @@
       "sha512": "sha512-Sg74rZ4e1Gc7/BGD/IRUVmPdZVp60stuOV74oC56A2FjcRn78NEpzCmW19GcDzCzc9BlFdGb88d7b0Zs1ifpsA==",
       "path": "ensure.that/7.1.0",
       "hashPath": "ensure.that.7.1.0.nupkg.sha512"
+    },
+    "EntityFramework/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "path": "entityframework/6.2.0",
+      "hashPath": "entityframework.6.2.0.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",

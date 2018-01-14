@@ -6,13 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.6.2" />
-    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="AutoMapper" Version="6.2.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
     <PackageReference Include="Ensure.That" Version="7.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FootballLiveCheck.Business\FootballLiveCheck.Business.csproj" />
     <ProjectReference Include="..\FootballLiveCheck.Domain\FootballLiveCheck.Domain.csproj" />
   </ItemGroup>
 

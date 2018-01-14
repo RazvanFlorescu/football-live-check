@@ -13,11 +13,13 @@ namespace FootballLiveCheck.Domain.Entities
         }
         
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int Id { get; protected set; }
+       
+        [Key]
+        public int DbId { get; protected set; }
 
         public void SetId(int id)
         {
-            Id = id;
+            DbId = id;
         }
     }
 }
