@@ -26,8 +26,8 @@ namespace FootballLiveCheck.Business.Subscriber.QueryHandlers
             EnsureArg.IsNotNull(query);
 
             var subscriptionsBySamePhoneNumber = SubscriptionsRepo.Search(s => s.PhoneNumber == query.Subscription.PhoneNumber);
-            var matches = Mapper.Map<IQueryable<SubscriptionModel>>(subscriptionsBySamePhoneNumber);
-            matches.Where(s => s.SubcribedGame == query.Subscription.SubcribedGame);
+            var mappedToDtos = Mapper.Map<IQueryable<SubscriptionModel>>(subscriptionsBySamePhoneNumber);
+            var matches = mappedToDtos.Where(s => s.SubcribedGameId == query.Subscription.SubcribedGameId);
 
             return new GetSubscriptionQueryResult(matches);
         }
