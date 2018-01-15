@@ -19,5 +19,7 @@ namespace FootballLiveCheck.Business.Models.JSONObjects.JMatches
         public JOutcome Outcome { get; set; }
 
         public int CurrentState { get; set; }
+
+        public JArena Venue { get; set; }
     }
 }

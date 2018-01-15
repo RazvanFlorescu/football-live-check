@@ -13,9 +13,10 @@ namespace FootballLiveCheck.Business.MappingProfiles
                 .ForMember(e => e.Matches, opt => opt.Ignore());
             CreateMap<JTeam, Domain.Entities.Team>()
                 .ForMember(x => x.DbId, opt => opt.MapFrom(src => src.DbId))
-                .ForMember(e => e.Matches, opt => opt.Ignore());
-            //.ForMember(m => m.ArenaId, o => o.MapFrom(p => p.Arena.DbId))
-            //.ForMember(m => m.Name, o => o.MapFrom(p => p.Name));
+                .ForMember(e => e.Matches, opt => opt.Ignore())
+                .ForMember(e => e.Arena, opt => opt.MapFrom(src => src.defaultHomeVenue))
+                .ForMember(m => m.ArenaId, o => o.MapFrom(p => p.defaultHomeVenue.DbId));
+
         }
     }
 }

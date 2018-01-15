@@ -7,7 +7,7 @@ namespace FootballLiveCheck.DbSynchronizer.Helpers
     {
         public static bool Equals(this League league, JLeague jLeague)
         {
-            if (league.DbId != jLeague.DbId || league.FullName != jLeague.FullName
+            if (league.DbId != jLeague.DbId || league.FullName != jLeague.Name
                 || league.ShortName != jLeague.ShortName || league.FlagURL != jLeague.FlagUrl
                 || league.Region.Name != jLeague.Region.Name || league.Region.FlagUrl != league.Region.FlagUrl)
                 return false;

@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Text;
-
-namespace FootballLiveCheck.Domain.Entities
+﻿namespace FootballLiveCheck.Domain.Entities
 {
-    public class Arena:ApiEntity
+    public class Arena : ApiEntity
     {
-        public int Capacity { get; private set; }
+        public string Capacity { get; private set; }
 
         public string Name { get; private set; }
 
-        public static Arena Create(int dbid, string name, int capacity)
+        public static Arena Create(int dbid, string name, string capacity)
         {
-            return new Arena()
+            return new Arena
             {
                 DbId = dbid,
-                Name= name,
+                Name = name,
                 Capacity = capacity
             };
         }

@@ -9,7 +9,11 @@ namespace FootballLiveCheck.Business.MappingProfiles
     {
         public OutcomeProfile()
         {
-            CreateMap<JOutcome,Outcome>().IncludeBase<BaseJsonObject, DomainEntity>();
+            CreateMap<JOutcome,Outcome>().ConvertUsing(Convert);
+        }
+        private Outcome Convert(JOutcome model)
+        {
+            return Outcome.Create(model.Winner, model.Type, model.AfterExtraTime);
         }
     }
 }

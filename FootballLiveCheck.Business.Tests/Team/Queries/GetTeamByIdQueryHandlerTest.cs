@@ -32,7 +32,7 @@ namespace FootballLiveCheck.Business.Tests.Team.Queries
         [TestMethod]
         public void Given_Retrieve_When_PassedValidQuery_Then_Should_ReturnTeamById()
         {
-            Arena arena = Arena.Create(1, "arena", 121);
+            Arena arena = Arena.Create(1, "arena", "121");
             var team = TeamFactory.GetEntity("TeamTestName", "ShortName",
                 20, "url", arena);
             RepositoryMock.Setup(r => r.GetById(id)).Returns(team);

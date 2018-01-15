@@ -14,7 +14,7 @@ namespace FootballLiveCheck.Domain.Entities
 
         public string FlagURL { get; private set; }
 
-        public int RegionId { get; private set; }
+        public int? RegionId { get; private set; }
 
         public virtual Region Region { get; private set; }
 
@@ -26,7 +26,8 @@ namespace FootballLiveCheck.Domain.Entities
                 ShortName = shortName,
                 FullName = fullName,
                 FlagURL = flagURL,
-                Region = region
+                Region = region,
+                RegionId = region.DbId
             };
         }
 
@@ -39,9 +40,14 @@ namespace FootballLiveCheck.Domain.Entities
                 FullName = fullName,
                 FlagURL = flagURL,
                 RegionId = regionId
+               
             };
         }
 
+        public void SetRegionId(int? regionId)
+        {
+            RegionId = regionId;
+        }
 
     }
 }

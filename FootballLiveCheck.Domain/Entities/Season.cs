@@ -14,5 +14,13 @@ namespace FootballLiveCheck.Domain.Entities
 
         public IEnumerable<Match> Matches { get; private set; }
 
+        public static Season Create(int dbid, string name)
+        {
+            return new Season
+            {
+                DbId = dbid,
+                Name = name
+            };
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace FootballLiveCheck.Domain.Entities
 
         public string ShirtUrl { get; private set; }
 
-      // public int ArenaId { get; private set; }
+        public int? ArenaId { get; private set; }
 
         public virtual Arena Arena { get; private set; }
 
@@ -34,6 +34,11 @@ namespace FootballLiveCheck.Domain.Entities
                ShirtUrl = shirtUrl,
                Arena = arena
             };
+        }
+
+        public void SetArenaId(int? arenaId)
+        {
+            ArenaId = arenaId;
         }
         
     }

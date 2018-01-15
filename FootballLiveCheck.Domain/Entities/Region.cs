@@ -7,10 +7,11 @@ namespace FootballLiveCheck.Domain.Entities
         public string Name { get; private set; }
         public string FlagUrl { get; private set; }
 
-        public static Region Create( string name, string flagurl)
+        public static Region Create(int dbid, string name, string flagurl)
         {
             return new Region()
             {
+                DbId = dbid,
                 Name = name,
                 FlagUrl = flagurl
             };

@@ -13,7 +13,7 @@ namespace FootballLiveCheck.Business.MappingProfiles
 
         private Region Convert(JRegion model)
         {
-            return Region.Create(model.Name, model.FlagUrl);
+            return Region.Create(model.DbId,model.Name, model.FlagUrl);
         }
     }
 }

@@ -31,7 +31,7 @@ namespace FootballLiveCheck.Business.Tests.Team.Queries
         [TestMethod]
         public void Given_Retrieve_When_PassedValidQuery_Then_Should_ReturnAllTeams()
         {
-            Arena arena = Arena.Create(1,"arena",121);
+            Arena arena = Arena.Create(1,"arena","121");
            
             var teams = TeamFactory.GetEntity("TeamTestName", "ShortName",
                 20, "url",arena).ToQueryableCollection();

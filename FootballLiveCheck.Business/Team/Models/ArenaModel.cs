@@ -8,6 +8,6 @@ namespace FootballLiveCheck.Business.Team.Models
     {
         public int DbId { get; set; }
         public string Name { get; set; }
-        public int Capacity { get; set; }
+        public string Capacity { get; set; }
     }
 }

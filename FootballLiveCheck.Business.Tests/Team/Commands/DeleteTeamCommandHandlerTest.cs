@@ -40,7 +40,7 @@ namespace FootballLiveCheck.Business.Tests.Team.Commands
 
         protected override DeleteTeamCommand CreateCommand()
         {
-            Arena arena = Arena.Create(1, "arena", 121);
+            Arena arena = Arena.Create(1, "arena", "121");
             var model = TeamFactory.GetModel("TeamTestName", "ShortName",
                 20, "url",arena);
             return new DeleteTeamCommand(model);

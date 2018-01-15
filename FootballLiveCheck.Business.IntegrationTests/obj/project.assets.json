@@ -5621,7 +5621,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {},
+    "C:\\Users\\codry\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5630,17 +5630,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Projects\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
+      "projectUniqueName": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
       "projectName": "FootballLiveCheck.Business.IntegrationTests",
-      "projectPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\obj\\",
+      "projectPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\FootballLiveCheck.Business.IntegrationTests.csproj",
+      "packagesPath": "C:\\Users\\codry\\.nuget\\packages\\",
+      "outputPath": "D:\\facultate\\GithubRepositories\\football-live-check\\FootballLiveCheck.Business.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\codry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -30,7 +30,7 @@ namespace FootballLiveCheck.Business.Tests.League.Queries
         [TestMethod]
         public void Given_Retrieve_When_PassedValidQuery_Then_Should_ReturnAllLeagues()
         {
-            var region =Region.Create( "regiontest","www.test.ro");
+            var region =Region.Create(1, "regiontest","www.test.ro");
             var leagues = LeagueFactory.GetEntity(20, "LSTN", "LeagueFullTestName",
                 "https://www.flagTest.png", region).ToQueryableCollection();
             RepositoryMock.Setup(r => r.GetAll()).Returns(leagues);

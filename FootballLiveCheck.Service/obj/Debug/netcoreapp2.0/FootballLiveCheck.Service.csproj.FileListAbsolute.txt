@@ -107,6 +107,8 @@ E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\De
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
 E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb
+E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
+E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.deps.json
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.runtimeconfig.json
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.Service.runtimeconfig.dev.json
@@ -130,5 +132,3 @@ D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\ob
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.AssemblyInfo.cs
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.dll
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Service\obj\Debug\netcoreapp2.0\FootballLiveCheck.Service.pdb
-E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.dll
-E:\Projects\football-live-check\FootballLiveCheck.Service\bin\Debug\netcoreapp2.0\FootballLiveCheck.DbSynchronizer.pdb

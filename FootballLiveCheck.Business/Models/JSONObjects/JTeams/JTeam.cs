@@ -16,7 +16,7 @@ namespace FootballLiveCheck.Business.Models.JSONObjects.JTeams
 
         public string ShortCode { get; set; }
 
-        public JArena Arena { get; set; }
+        public JArena defaultHomeVenue { get; set; }
 
         public ICollection<JMatch> Matches { get; set; }
     }

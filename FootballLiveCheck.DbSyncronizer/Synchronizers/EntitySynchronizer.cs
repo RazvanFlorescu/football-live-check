@@ -41,7 +41,13 @@ namespace FootballLiveCheck.DbSynchronizer.Synchronizers
             {
                 var entity = mapper.Map(jEntity);
                 ////entity.SetId(jEntity.DbId);
-                repository.Add(entity);
+                if (jEntity.DbId != 0)
+                {
+                    if (repository.GetById(entity.DbId) == null)
+                    {
+                        repository.Add(entity);
+                    }
+                }
             } //insert new Entities from Api
 
 
@@ -55,7 +61,16 @@ namespace FootballLiveCheck.DbSynchronizer.Synchronizers
             foreach (var entity in entitiesToUpdate)
             {
                 var league = repository.GetById(entity.DbId);
-                repository.Update(league);
+                if (league != null)
+                {
+
+                    if (league.DbId != 0)
+                    {
+                       
+                            repository.Update(league);
+                       
+                    }
+                }
             } //update entities that changed their status 
 
             repository.SaveChanges();

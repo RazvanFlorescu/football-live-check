@@ -7,7 +7,7 @@ namespace FootballLiveCheck.DbSynchronizer.Mappers
     {
         public Arena Map(JArena model)
         {
-            return model != null ? Arena.Create(model.DbId, model.Name, model.Capacity) : null;
+            return (model != null ? Arena.Create(model.DbId, model.Name, model.Capacity) : null);
         }
     }
 }

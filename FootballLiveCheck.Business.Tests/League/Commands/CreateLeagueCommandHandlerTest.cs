@@ -40,7 +40,7 @@ namespace FootballLiveCheck.Business.Tests.League.Commands
 
         protected override CreateLeagueCommand CreateCommand()
         {
-            var regionmodel = Region.Create("region", "www.test.com");
+            var regionmodel = Region.Create(1,"region", "www.test.com");
             var model = LeagueFactory.GetModel(20,"LSTN","LeagueFullTestName","https://www.flagTest.png",regionmodel );
             return new CreateLeagueCommand(model);
         }
