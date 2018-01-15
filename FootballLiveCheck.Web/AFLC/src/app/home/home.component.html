@@ -1,16 +1,46 @@
 <div class="wrapper">
 
     <div class="header">
-     <p>your number ({{nrr}})</p>
+     
+     <img class="image"/>
+     trasads
     </div>
-    <div class="content">    
+    <div class="content"> 
+           
         <div class="leagues">
-          <p class="cotainer-leagues" *ngFor="let str of strs" >
-            {{str}}
-          </p>
+          <div class="title">My Leagues</div>
+          <div class="cotainer-leagues" *ngFor="let league of leagues"  >
+            <input type="submit" class="leagueBtn" value="{{league.name}}" [ngStyle]="{'background-image': 'url(' + league.flag + ')'}" (click)="putTheGoodContent(league.name)">
+            
+          </div>
         </div>
-        <div class="matches">
-          <input type="submit" class="btn" value="Buton" (click)="addItem()">
-        </div>
+        <div class="matches"> 
+         
+              <div class="cotainer-matches" *ngFor="let league of curentLeagues" (click)="getAndSetMatches(league.nume)" >
+                  <div class="titleLeague"> {{league.name}} </div>
+                  <div class="matchBtn" *ngFor="let match of matches">
+                      <div class="ora corp">
+                        {{match.ora}}
+                      </div>
+                      <div class="minutul corp">
+                        
+                      </div>
+                      <div class="homeTeam corp">
+                        {{match.homeTeam}}
+                        <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.homeTeamFlag + ')'}"></div>
+                      </div>
+                      <div class="score corp">
+                        {{match.homeGoals}} - {{match.awayGoals}}
+                      </div>
+                      <div class="awayTeam corp">
+                        {{match.awayTeam}}
+                          <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.awayTeamFlag + ')'}"></div>
+                      </div>
+                    </div>
+                  </div>
+        
+      </div>
     </div>
+
 </div>
+

@@ -9,11 +9,18 @@
 
 .header{
     width: 100%;
-    background: #793B3B;
     height: 20%;
     margin-bottom: 0.25em;
-    border-radius: 35px 35px 5px 5px;
+}
+
+.image{
+ 
+    content:url("../../assets/topimg.jpg");
     
+    width: 100%;
+    height: 100%;
+    border-radius: 35px 35px 5px 5px;
+
 }
 
 
@@ -25,7 +32,7 @@
    
 }
 .leagues{
-    width: 30%;
+    width: 25%;
     background:#5F7C5F;
     height: 100%;
     float: left;
@@ -34,14 +41,131 @@
 }
 
 .matches{
-    width:70%;
-    background: #CEC5C5;;
+    width:75%;
+    background: #CEC5C5;
     height: 100%;
     float: right;
     border-radius: 0px 5px 5px 0px
 }
 
-.cotainer-leagues{
+.leagueBtn{
     width: 100%;
-    height: 5%;
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+   
+    background-size:100%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    font-size: 15px;
+   
+    cursor: pointer;
+}
+
+.leagueBtn:hover {
+  
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+
+.title{
+    width: 90%;
+    height: 3%;
+    text-align: center;
+    margin: auto; 
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #681C19;
+    vertical-align: middle;
+    font-size: 16px;
+    border-radius: 2px 2px 15px 15px;
+    
+}
+.cotainer-leagues{
+    width: 80%;
+    height: 10%;
+    
+    margin: auto; 
+    margin-top: 7px;
+}
+
+
+
+.cotainer-matches{
+    width: 90%;
+    height: 20%;
+    margin: auto; 
+
+}
+
+.titleLeague{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    margin: auto; 
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #681C19;
+    vertical-align: middle;
+    font-size: 16px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+
+.matchBtn{
+    width: 100%;
+    height: 20%;
+}
+
+.matchBtn:hover{
+ 
+    -webkit-box-shadow: 17px 6px 44px -1px rgba(99,89,99,0.83);
+    -moz-box-shadow: 17px 6px 44px -1px rgba(99,89,99,0.83);
+    box-shadow: 17px 6px 44px -1px rgba(99,89,99,0.83);
+    background: #222121
+}
+
+.ora{
+
+    width: 12%;
+
+}
+.minutul{
+
+    width: 6.9%;
+ 
+}
+
+.homeTeam{
+
+    width: 35%;
+
+}
+.score{
+
+    width: 10%;
+
+}
+.awayTeam{
+   
+    width: 35%;
+
+}
+
+.corp{
+    float: left;
+    margin-left: 1px;
+    height: 100%;
+    background: #FFFFFF;
+    color:black;
+    text-align: center;
+    margin-bottom: 1px;
 }
