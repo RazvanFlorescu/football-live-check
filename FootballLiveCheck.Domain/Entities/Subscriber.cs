@@ -4,6 +4,8 @@
     {
         public string PhoneNumber { get; set; }
 
+        public int MatchId { get; set; }
+
         public virtual Match SubscribedMatch { get; set; }
 
         private Subscriber() { }
