@@ -14,9 +14,13 @@ namespace FootballLiveCheck.Domain.Entities
 
         public string ShortName { get; private set; }
 
+        public string ShortCode { get; private set; }
+
         public string ShirtUrl { get; private set; }
 
         public int? ArenaId { get; private set; }
+
+        public bool isNational { get; private set; }
 
         public virtual Arena Arena { get; private set; }
 
@@ -40,6 +44,7 @@ namespace FootballLiveCheck.Domain.Entities
         {
             ArenaId = arenaId;
         }
-        
+
+       
     }
 }

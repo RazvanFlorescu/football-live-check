@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using FootballLiveCheck.Business.League.Models;
 using FootballLiveCheck.Business.Team.Models;
 using FootballLiveCheck.Domain.Entities;
@@ -7,7 +8,8 @@ namespace FootballLiveCheck.Business.Match.Models
 {
     public class MatchModel
     {
-       
+     
+        public int DbId { get; set; }
 
         public TeamModel HomeTeam { get; set; }
 
@@ -16,6 +18,8 @@ namespace FootballLiveCheck.Business.Match.Models
         public int AwayGoals { get;  set; }
 
         public string Start { get;  set; }
+
+        public DateTime StartDate { get; set; }
 
         public SeasonModel Season { get;  set; }
 
@@ -26,5 +30,6 @@ namespace FootballLiveCheck.Business.Match.Models
         //public virtual OutcomeModel Outcome { get; private set; }
 
         public int CurrentState{ get; set; }
+        public ArenaModel Arena { get; set; }
     }
 }

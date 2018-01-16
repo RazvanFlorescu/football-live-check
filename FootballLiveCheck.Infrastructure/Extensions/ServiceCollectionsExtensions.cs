@@ -1,14 +1,11 @@
 ﻿using System;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using FootballLiveCheck.CqrsCore.DependencyInjection;
 using FootballLiveCheck.Data;
 using FootballLiveCheck.DbSynchronizer.Autofac;
-using FootballLiveCheck.Domain.Entities;
-using FootballLiveCheck.Domain.Interfaces;
 using FootballLiveCheck.Infrastructure.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace FootballLiveCheck.Infrastructure.Extensions
 {
@@ -34,6 +31,5 @@ namespace FootballLiveCheck.Infrastructure.Extensions
             services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString));
             return services;
         }
-
     }
 }

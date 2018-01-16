@@ -10,7 +10,7 @@ namespace FootballLiveCheck.Domain.Entities
         
         public string ShortName { get; private set; }
 
-        public string FullName { get; private set; }
+        public string Name { get; private set; }
 
         public string FlagURL { get; private set; }
 
@@ -24,10 +24,10 @@ namespace FootballLiveCheck.Domain.Entities
             {
                 DbId = apiId,
                 ShortName = shortName,
-                FullName = fullName,
+                Name = fullName,
                 FlagURL = flagURL,
-                Region = region,
-                RegionId = region.DbId
+                Region = region
+                
             };
         }
 
@@ -37,7 +37,7 @@ namespace FootballLiveCheck.Domain.Entities
             {
                 DbId = apiId,
                 ShortName = shortName,
-                FullName = fullName,
+                Name = fullName,
                 FlagURL = flagURL,
                 RegionId = regionId
                

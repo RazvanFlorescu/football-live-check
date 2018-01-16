@@ -12,7 +12,7 @@ namespace FootballLiveCheck.Service.Controllers
     [Route("api/leagues")]
     public class LeaguesController : BaseController
     {
-        protected ILeagueRepository leagueRepository;
+       // protected ILeagueRepository leagueRepository;
 
         public LeaguesController(ICommandDispatcher commandDispatcher, IQueryDispatcher queryDispatcher) : base(
             commandDispatcher, queryDispatcher)
@@ -35,6 +35,15 @@ namespace FootballLiveCheck.Service.Controllers
             return Ok(result);
         }
 
+        [HttpGet("topleagues")]
+        public IActionResult GetTopLeagues()
+        {
+            var query = new GetTopLeaguesQuery();
+            var result = QueryDispatcher.Retrive<GetTopLeaguesQueryResult, GetTopLeaguesQuery>(query);
+            return Ok(result);
+        }
+
+
         [HttpGet("{leagueApiId}")]
         public IActionResult GetLeaguesByApiId([FromRoute] int leagueId)
         {
@@ -42,6 +51,7 @@ namespace FootballLiveCheck.Service.Controllers
             var result = QueryDispatcher.Retrive<GetLeagueByApiIdQueryResult, GetLeagueByApiIdQuery>(query);
             return Ok(result);
         }
+
 
 
         //[HttpGet("{leagueId}")]

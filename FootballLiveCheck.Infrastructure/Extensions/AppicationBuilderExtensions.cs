@@ -14,11 +14,10 @@ namespace FootballLiveCheck.Infrastructure.Extensions
 
         public static void SynchronizeDb(this IApplicationBuilder services, IDependencyScope scope)
         {
-          
 
+          
             var leagueSynchronizer = scope.Resolve<IEntitySynchronizer<League, JLeague>>();
             leagueSynchronizer.Synchronize("/competitions");
-
 
             var teamsSynchronizer = scope.Resolve<IEntitySynchronizer<Team, JTeam>>();
             teamsSynchronizer.Synchronize(("/teams"));
@@ -28,6 +27,27 @@ namespace FootballLiveCheck.Infrastructure.Extensions
 
             var matchesSynchronizer = scope.Resolve<IEntitySynchronizer<Match, JMatch>>();
             matchesSynchronizer.Synchronize("/matches");
+
+        }
+        public static void SynchronizeDaily(this IApplicationBuilder services, IDependencyScope scope)
+        {
+
+            var leagueSynchronizer = scope.Resolve<IEntitySynchronizer<League, JLeague>>();
+            leagueSynchronizer.Synchronize("/competitions");
+
+            var teamsSynchronizer = scope.Resolve<IEntitySynchronizer<Team, JTeam>>();
+            teamsSynchronizer.Synchronize(("/teams"));
+
+            var seasonsSynchronizer = scope.Resolve<IEntitySynchronizer<Season, JSeason>>();
+            seasonsSynchronizer.Synchronize("/seasons");
+
+        }
+        public static void SynchronizeMinutely(this IApplicationBuilder services, IDependencyScope scope)
+        {
+
+            var matchesSynchronizer = scope.Resolve<IEntitySynchronizer<Match, JMatch>>();
+            matchesSynchronizer.Synchronize("/matches");
+
         }
     }
 }

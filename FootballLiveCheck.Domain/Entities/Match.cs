@@ -21,8 +21,10 @@ namespace FootballLiveCheck.Domain.Entities
 
         public int AwayGoals { get; private set; }
 
+        public DateTime StartDate { get; private set; }
+
         public string Start { get; private set; }
-        
+
         public int SeasonId { get; private set; }
 
         [NotMapped]
@@ -36,7 +38,7 @@ namespace FootballLiveCheck.Domain.Entities
         public int HomeGoals { get; private set; }
         //public Guid OutcomeId { get; private set; }
 
-       // public virtual Outcome Outcome { get; private set; }
+        // public virtual Outcome Outcome { get; private set; }
 
         public int CurrentState { get; private set; }
 
@@ -45,7 +47,7 @@ namespace FootballLiveCheck.Domain.Entities
 
         public int? ArenaId { get; private set; }
 
-        public static Match Create( int dbId, int homeTeamId,
+        public static Match Create(int dbId, int homeTeamId,
             int awayTeamId, int awayGoals, string start, int seasonId, int leagueId,
             int homeGoals, int currentState)
         {
@@ -53,25 +55,37 @@ namespace FootballLiveCheck.Domain.Entities
             {
                 DbId = dbId,
                 HomeTeamId = homeTeamId,
-               
                 AwayTeamId = awayTeamId,
-             
                 AwayGoals = awayGoals,
                 Start = start,
-              
+                StartDate = DomainHelper.UnixTimeStampToDateTime(start),
                 SeasonId = seasonId,
                 LeagueId = leagueId,
                 HomeGoals = homeGoals,
                 //Outcome = outcome,
                 //OutcomeId = outcome.Id,
                 CurrentState = currentState
-              
             };
         }
 
         public void SetArenaId(int? arenaId)
         {
             ArenaId = arenaId;
+        }
+
+
+        public bool AreEquals(Match m)
+        {
+            return true;
+            //return (this.DbId == m.DbId &&
+            //        this.AwayTeamId == m.AwayTeamId &&
+            //        this.HomeTeamId == m.HomeTeamId &&
+            //        this.CurrentState == m.CurrentState &&
+            //        this.LeagueId == m.LeagueId &&
+            //        this.ArenaId == m.ArenaId &&
+            //        this.Start == m.Start &&
+            //        this.HomeGoals == m.HomeGoals &&
+            //        this.AwayGoals == m.AwayGoals);
         }
     }
 }

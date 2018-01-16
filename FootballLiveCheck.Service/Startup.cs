@@ -1,6 +1,7 @@
 ﻿using System;
 using AutoMapper;
 using FootballLiveCheck.CqrsCore.DependencyInjection;
+using FootballLiveCheck.Domain.Interfaces;
 using FootballLiveCheck.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -36,6 +37,10 @@ namespace FootballLiveCheck.Service
                 app.UseDeveloperExceptionPage();
 
             app.SynchronizeDb(scope);
+            var jobsHelper = scope.Resolve<IJobsHelper>();
+            jobsHelper.AddDailyRecurringJob("db-syncronize-daily", () => app.SynchronizeDaily(scope));
+            jobsHelper.AddMinutelyRecurringJob("db-syncronize-minutely", () => app.SynchronizeMinutely(scope));
+
             app.UseMvc();
         }
     }

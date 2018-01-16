@@ -34,7 +34,9 @@ namespace FootballLiveCheck.Data.Repositories
 
         public void Add(T entity)
         {
-            entitiesSet.Add(entity);
+           
+             entitiesSet.Add(entity);
+           
         }
 
         public void Update(T entity)

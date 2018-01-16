@@ -14,7 +14,7 @@ namespace FootballLiveCheck.Data.Mappings
             // modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
             modelBuilder.HasOne(m => m.HomeTeam);
             modelBuilder.HasOne(m => m.AwayTeam);
-            modelBuilder.HasAlternateKey(a => a.DbId);
+            
         }
     }
 }

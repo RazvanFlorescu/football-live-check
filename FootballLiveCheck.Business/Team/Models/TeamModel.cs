@@ -7,11 +7,9 @@ namespace FootballLiveCheck.Business.Team.Models
     public class TeamModel : BaseModel
     {
        
-        public string FullName { get; set; }
+        public string Name { get; set; }
 
         public string ShortName { get; set; }
-
-        public int ApiId { get; set; }
 
         public string ShirtUrl { get; set; }
 

@@ -10,6 +10,7 @@ namespace FootballLiveCheck.Infrastructure.DependencyInjection
         {
             builder.RegisterAssemblyTypes(typeof(DataLayer).GetTypeInfo().Assembly).Where(t => t.Name.EndsWith("Repository"))
                 .AsImplementedInterfaces();
+
         }
     }
 }

@@ -46,9 +46,9 @@ E:\Projects\dotNET Projects\football-live-check\FootballLiveCheck.Domain\obj\Deb
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.deps.json
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\bin\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
-D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.csprojResolveAssemblyReference.cache
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.csproj.CoreCompileInputs.cache
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfoInputs.cache
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.AssemblyInfo.cs
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.dll
 D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.pdb
+D:\facultate\GithubRepositories\football-live-check\FootballLiveCheck.Domain\obj\Debug\netcoreapp2.0\FootballLiveCheck.Domain.csprojResolveAssemblyReference.cache

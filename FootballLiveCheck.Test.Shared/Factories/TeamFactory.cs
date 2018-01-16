@@ -11,9 +11,9 @@ namespace FootballLiveCheck.Tests.Shared.Factories
         {
             return new TeamModel
             {
-                FullName = fullName,
+                Name = fullName,
                 ShortName = shortName,
-                ApiId = apiId,
+                DbId = apiId,
                 ShirtUrl = shirtUrl,
                 Arena = ArenaFactory.GetModel(arena)
             };
@@ -23,9 +23,9 @@ namespace FootballLiveCheck.Tests.Shared.Factories
         {
             return new TeamModel
             {
-                FullName = team.Name,
+                Name = team.Name,
                 ShortName = team.ShortName,
-                ApiId = team.DbId,
+                DbId = team.DbId,
                 ShirtUrl = team.ShirtUrl,
                 Arena = ArenaFactory.GetModel(team.Arena)
             };

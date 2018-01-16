@@ -9,6 +9,7 @@ namespace FootballLiveCheck.Data.Mappings
         {
             var entityBuilder = builder.Entity<League>();
             entityBuilder.HasOne(l => l.Region).WithMany().HasForeignKey(l => l.RegionId);
+
             entityBuilder.HasAlternateKey(a => a.DbId);
         }
     }

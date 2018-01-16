@@ -1,8 +1,9 @@
-﻿using FootballLiveCheck.Domain.Entities;
+﻿using System;
+using FootballLiveCheck.Domain.Entities;
 
 namespace FootballLiveCheck.Domain.Interfaces
 {
-    public interface IEntitySynchronizer<TEntity, TJson>
+    public interface IEntitySynchronizer<TEntity, TJson> 
         where TEntity : ApiEntity
         where TJson : BaseJsonObject
     {

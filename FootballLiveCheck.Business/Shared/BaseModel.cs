@@ -4,6 +4,6 @@ namespace FootballLiveCheck.Business.Shared
 {
     public class BaseModel
     {
-        public Guid Id { get; set; }
+        public int DbId { get; set; }
     }
 }

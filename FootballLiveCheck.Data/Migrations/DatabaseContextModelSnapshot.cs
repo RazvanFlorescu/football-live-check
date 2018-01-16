@@ -39,7 +39,7 @@ namespace FootballLiveCheck.Data.Migrations
 
                     b.Property<string>("FlagURL");
 
-                    b.Property<string>("FullName");
+                    b.Property<string>("Name");
 
                     b.Property<int?>("RegionId");
 
@@ -73,6 +73,8 @@ namespace FootballLiveCheck.Data.Migrations
                     b.Property<int>("SeasonId");
 
                     b.Property<string>("Start");
+
+                    b.Property<DateTime>("StartDate");
 
                     b.Property<int?>("TeamDbId");
 
@@ -119,7 +121,11 @@ namespace FootballLiveCheck.Data.Migrations
 
                     b.Property<string>("ShirtUrl");
 
+                    b.Property<string>("ShortCode");
+
                     b.Property<string>("ShortName");
+
+                    b.Property<bool>("isNational");
 
                     b.HasKey("DbId");
 

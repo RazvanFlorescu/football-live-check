@@ -13,9 +13,6 @@
     <Folder Include="Match\CommandsHandlers\" />
     <Folder Include="Match\Event\" />
     <Folder Include="Match\Validators\" />
-    <Folder Include="Match\QueryResults\" />
-    <Folder Include="Match\QueryHandlers\" />
-    <Folder Include="Match\Queries\" />
     <Folder Include="Resources\" />
     <Folder Include="User\EventHandlers\" />
     <Folder Include="User\Events\" />

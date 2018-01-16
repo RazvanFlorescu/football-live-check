@@ -8,7 +8,8 @@ namespace FootballLiveCheck.Business.MappingProfiles
     {
         public LeagueMappingProfile()
         {
-            CreateMap<Domain.Entities.League, LeagueModel>().ReverseMap();
+            CreateMap<Domain.Entities.League, LeagueModel>()
+                .ForMember(x => x.Region, opt => opt.MapFrom(src => src.Region)).ReverseMap();
             CreateMap<JLeague, Domain.Entities.League>()
                 .ForMember(x => x.DbId, opt => opt.MapFrom(src => src.DbId))
                 .ForMember(e => e.Region, opt => opt.MapFrom(src => src.Region))

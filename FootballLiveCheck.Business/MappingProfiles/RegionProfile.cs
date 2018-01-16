@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FootballLiveCheck.Business.League.Models;
 using FootballLiveCheck.Business.Models.JSONObjects.JLeagues;
 using FootballLiveCheck.Domain.Entities;
 
@@ -8,6 +9,7 @@ namespace FootballLiveCheck.Business.MappingProfiles
     {
         public RegionProfile()
         {
+            CreateMap<Region, RegionModel>().ReverseMap();
             CreateMap<JRegion,Region>().ConvertUsing(Convert);
         }
 

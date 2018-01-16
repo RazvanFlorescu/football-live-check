@@ -2,10 +2,11 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
+using FootballLiveCheck.Domain.Interfaces;
 
 namespace FootballLiveCheck.Domain.Entities
 {
-    public abstract class ApiEntity
+    public abstract class ApiEntity : EntityComparer<ApiEntity>
     {
         protected ApiEntity()
         {
@@ -21,5 +22,7 @@ namespace FootballLiveCheck.Domain.Entities
         {
             DbId = id;
         }
+
+       
     }
 }

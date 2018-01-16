@@ -15,9 +15,9 @@ namespace FootballLiveCheck.Tests.Shared.Factories
         {
             return new LeagueModel
             {
-                ApiId = league.DbId,
+                DbId = league.DbId,
                 ShortName = league.ShortName,
-                FullName = league.FullName,
+                Name = league.Name,
                 FlagURL = league.FlagURL,
                 Region = RegionFactory.GetModel(league.Region)
               
@@ -29,9 +29,9 @@ namespace FootballLiveCheck.Tests.Shared.Factories
         {
             return new LeagueModel
             {
-                ApiId = apiId,
+                DbId = apiId,
                 ShortName = shortName,
-                FullName = fullName,
+                Name = fullName,
                 Region = RegionFactory.GetModel(region),
                 FlagURL = flagURL,
               

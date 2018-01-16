@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "6b71f679c0d2e74a7ff45843f6ad2c260888649a"
+    "signature": "f1e5e472610d2e111265718c7bb597c5d5410865"
   },
   "compilationOptions": {
     "defines": [
@@ -125,6 +125,34 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Dapper/1.50.1": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Data.SqlClient": "4.4.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.XDocument": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Dapper.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Dapper.dll": {}
+        }
+      },
       "Ensure.That/7.1.0": {
         "runtime": {
           "lib/netstandard2.0/Ensure.That.dll": {}
@@ -141,6 +169,69 @@
         "compile": {
           "lib/net45/EntityFramework.SqlServer.dll": {},
           "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Hangfire/1.6.17": {
+        "dependencies": {
+          "Hangfire.AspNetCore": "1.6.17",
+          "Hangfire.Core": "1.6.17",
+          "Hangfire.SqlServer": "1.6.17"
+        }
+      },
+      "Hangfire.AspNetCore/1.6.17": {
+        "dependencies": {
+          "Hangfire.Core": "1.6.17",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.1",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
+          "NETStandard.Library": "2.0.0",
+          "System.ComponentModel": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Hangfire.AspNetCore.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Hangfire.AspNetCore.dll": {}
+        }
+      },
+      "Hangfire.Core/1.6.17": {
+        "dependencies": {
+          "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
+          "NETStandard.Library": "2.0.0",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Threading.Thread": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Hangfire.Core.dll": {}
+        },
+        "resources": {
+          "lib/netstandard1.3/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.3/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Hangfire.Core.dll": {}
+        }
+      },
+      "Hangfire.SqlServer/1.6.17": {
+        "dependencies": {
+          "Dapper": "1.50.1",
+          "Hangfire.Core": "1.6.17",
+          "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
+          "NETStandard.Library": "2.0.0",
+          "System.Data.Common": "4.1.0",
+          "System.Data.SqlClient": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Hangfire.SqlServer.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Hangfire.SqlServer.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -2426,7 +2517,26 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
+      "Microsoft.NETCore.Jit/1.0.2": {},
+      "Microsoft.NETCore.Portable.Compatibility/1.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Runtime.CoreCLR": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ServiceModel.dll": {}
+        },
+        "compile": {
+          "ref/netstandard1.0/System.ServiceModel.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Runtime.CoreCLR/1.0.2": {
+        "dependencies": {
+          "Microsoft.NETCore.Jit": "1.0.2",
+          "Microsoft.NETCore.Windows.ApiSets": "1.0.1"
+        }
+      },
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.NETCore.Windows.ApiSets/1.0.1": {},
       "Microsoft.Rest.ClientRuntime/2.3.8": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
@@ -3113,6 +3223,18 @@
           "System.IO": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
+        }
+      },
+      "System.Data.Common/4.1.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
         }
       },
       "System.Data.SqlClient/4.4.0": {
@@ -4254,6 +4376,7 @@
           "FootballLiveCheck.CqrsCore": "1.0.0",
           "FootballLiveCheck.Data": "1.0.0",
           "FootballLiveCheck.DbSynchronizer": "1.0.0",
+          "Hangfire": "1.6.17",
           "Microsoft.AspNetCore": "2.0.1",
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1"
@@ -4484,6 +4607,13 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/3.2.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.3.2.0.nupkg.sha512"
     },
+    "Dapper/1.50.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UnvcSLoFOriBz9uMTwWmhhpvkPke91OfouxkWK+88zrFXbm38DP0MmQNjFYIsnPUnvPd/pC+nhgm+nM+mkdtTg==",
+      "path": "dapper/1.50.1",
+      "hashPath": "dapper.1.50.1.nupkg.sha512"
+    },
     "Ensure.That/7.1.0": {
       "type": "package",
       "serviceable": true,
@@ -4497,6 +4627,34 @@
       "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
       "path": "entityframework/6.2.0",
       "hashPath": "entityframework.6.2.0.nupkg.sha512"
+    },
+    "Hangfire/1.6.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3nb1d1471c+X5TtmByohsoTeGa5jj7dNj2V9gxNFa6WijUNg7vTNQk/zWYqRatUgwBeW5Gof6GdLarFpBDokg==",
+      "path": "hangfire/1.6.17",
+      "hashPath": "hangfire.1.6.17.nupkg.sha512"
+    },
+    "Hangfire.AspNetCore/1.6.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vyplbohNRCftM+TvAD2L0jyqWqfoWoZ57A5mgPfrSfRDCmrZfitQcLO2aQPdqHYaA2F9AAoMUGNRncHqE/1J4w==",
+      "path": "hangfire.aspnetcore/1.6.17",
+      "hashPath": "hangfire.aspnetcore.1.6.17.nupkg.sha512"
+    },
+    "Hangfire.Core/1.6.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zthN3NcyxObUpqv3UJRpL8bjANOloIHcFL2SrD+AjvIJoFDCiy/PDh0sVPIO4r6aXZ+KjlNpyB1PMfD5PKCpfw==",
+      "path": "hangfire.core/1.6.17",
+      "hashPath": "hangfire.core.1.6.17.nupkg.sha512"
+    },
+    "Hangfire.SqlServer/1.6.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zfQsPbBQ3Z9qGKG9NJdyXln0O/9uv0nYoTeMI58E9kJt1olPkEqMkNn8UUKoQERU4Z3NR29J+49IxToydQ/0nA==",
+      "path": "hangfire.sqlserver/1.6.17",
+      "hashPath": "hangfire.sqlserver.1.6.17.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -5625,12 +5783,40 @@
       "path": "microsoft.net.http.headers/2.0.1",
       "hashPath": "microsoft.net.http.headers.2.0.1.nupkg.sha512"
     },
+    "Microsoft.NETCore.Jit/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ok2vWofa6X8WD9vc4pfLHwvJz1/B6t3gOAoZcjrjrQf7lQOlNIuZIZtLn3wnWX28DuQGpPJkRlBxFj7Z5txNqw==",
+      "path": "microsoft.netcore.jit/1.0.2",
+      "hashPath": "microsoft.netcore.jit.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Portable.Compatibility/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vd+lvLcGwvkedxtKn0U8s9uR4p0Lm+0U2QvDsLaw7g4S1W4KfPDbaW+ROhhLCSOx/gMYC72/b+z+o4fqS/oxVg==",
+      "path": "microsoft.netcore.portable.compatibility/1.0.1",
+      "hashPath": "microsoft.netcore.portable.compatibility.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Runtime.CoreCLR/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A0x1xtTjYJWZr2DRzgfCOXgB0JkQg8twnmtTJ79wFje+IihlLbXtx6Z2AxyVokBM5ruwTedR6YdCmHk39QJdtQ==",
+      "path": "microsoft.netcore.runtime.coreclr/1.0.2",
+      "hashPath": "microsoft.netcore.runtime.coreclr.1.0.2.nupkg.sha512"
+    },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SaToCvvsGMxTgtLv/BrFQ5IFMPRE1zpWbnqbpwykJa8W5XiX82CXI6K2o7yf5xS7EP6t/JzFLV0SIDuWpvBZVw==",
+      "path": "microsoft.netcore.windows.apisets/1.0.1",
+      "hashPath": "microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512"
     },
     "Microsoft.Rest.ClientRuntime/2.3.8": {
       "type": "package",
@@ -6072,6 +6258,13 @@
       "sha512": "sha512-DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
       "path": "system.console/4.3.0",
       "hashPath": "system.console.4.3.0.nupkg.sha512"
+    },
+    "System.Data.Common/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
+      "path": "system.data.common/4.1.0",
+      "hashPath": "system.data.common.4.1.0.nupkg.sha512"
     },
     "System.Data.SqlClient/4.4.0": {
       "type": "package",
