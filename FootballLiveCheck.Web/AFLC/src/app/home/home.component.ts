@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Http, Response, Headers} from '@angular/http';
+import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'app-home',
@@ -15,9 +17,22 @@ export class HomeComponent implements OnInit {
 
    
 
-  constructor() { }
+   constructor(private http: Http) { }
+  id:number;
+  private headers = new Headers({ 'Content-Type': 'application/json'});
+
+  products = [];
+  fetchData = function() {
+    this.http.get("http://localhost:3000/products").subscribe(
+      (res: Response) => {
+        this.products = res.json();
+      }
+    )
+  }
+
 
   ngOnInit() {
+    this.fetchData();
     this.hardCodateTheInput();
     this.curentLeagues=this.leagues;
   }
