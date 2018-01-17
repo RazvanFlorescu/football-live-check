@@ -1,98 +1,116 @@
-<div class="wrapper">
-
-    <div class="header">
-     
-     <img class="image"/>
+<div class="container">
+  <div class="content">
+    <div class="header"></div>
+    
+    <div class="leagues">
+      <div class="title">My Leagues</div>
+      
+      <button class="leagueBtn" *ngFor="let league of leagues"  (click)="getMatchesByLeague(league)" >
+      {{league.name}}
+      <div class="flagLeague" [ngStyle]="{'background-image': 'url(' + league.flagURL + ')'}"></div>
+      </button>
     </div>
-    <div class="content"> 
-           
-        <div class="leagues" style="text-align: center;">
-          <div class="title">My Leagues</div>
-            
-            <button class="leagueBtn" *ngFor="let league of leagues"  (click)="getMatchesByLeague(league)" >
-               <div class="teamName">{{league.name}}</div>
-               <div class="flagLeague" [ngStyle]="{'background-image': 'url(' + league.flagURL + ')'}"></div>
-            </button>
-            
-  
-        </div>
-        <div class="matches" *ngIf="show == 1"> 
-              <div class="cotainer-matches" *ngFor="let league of curentLeagues" >
-                   
-                  <div class="titleLeague"> {{league.name}} </div>
-                  <div style="width:100%;height: 100%" *ngFor="let match of matches" >
-                    <div class="matchBtn" *ngIf="league.dbId == match.league.dbId" (click)="makeSubscribe(match.homeTeam.shortName , match.awayTeam.shortName,match.homeGoals,match.awayGoals,match.league.name,match.homeTeam.shirtUrl,match.awayTeam.shirtUrl,match.arena.name,match.arena.capacity,match.dbId)" >
-              
-                      <div class="ora corp">
-                        {{leagueId}}
-                      </div>
-                      <div class="minutul corp">
-                        
-                      </div>
-                      <div class="homeTeam corp">
-                        {{match.homeTeam.shortName}}
-                        <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.homeTeamFlag + ')'}"></div>
-                      </div>
-                      <div class="score corp">
-                        {{match.homeGoals}} - {{match.awayGoals}}
-                      </div>
-                      <div class="awayTeam corp">
-                        {{match.awayTeam.shortName}}
-                          <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.awayTeamFlag + ')'}"></div>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
+    <div class="matches" *ngIf="show == 1">
+      <div class="container-matches" *ngFor="let league of curentLeagues" >
         
-      </div>
-      <div class="matches" *ngIf="show == 0">
-        <div class="lgName">{{leagueName}}</div>  
-        <div class="event">
-             <div class="shirtAndTeam" >
-                 <div class="shirt"  [ngStyle]="{'background-image': 'url(' + homeShirtUrl + ')'}">
-                 </div>
-                 <div class="teamName2">{{homeTeam}}</div>
-             </div>
-             
-             <div class="shirtAndTeam2" >
-                <div class="shirt"  [ngStyle]="{'background-image': 'url(' + awayShirtUrl + ')'}">
-                </div>
-                <div class="teamName2" >{{awayTeam}}</div>
+        <div class="titleLeague"> {{league.name}} </div>
+        <div class="match" *ngFor="let match of matches" >
+          <div class="matchBtn" *ngIf="league.dbId == match.league.dbId" (click)="makeSubscribe(match.homeTeam.shortName , match.awayTeam.shortName,match.homeGoals,match.awayGoals,match.league.name,match.homeTeam.shirtUrl,match.awayTeam.shirtUrl,match.arena.name,match.arena.capacity,match.dbId)" >
+            <span>{{leagueId}}</span>
+            <span></span>
+            
+            <span>
+              {{match.homeTeam.shortName}}
+              <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.homeTeamFlag + ')'}"></div>
+            </span>
+            <span>
+              {{match.homeGoals}} - {{match.awayGoals}}
+            </span>
+            <span>
+              {{match.awayTeam.shortName}}
+              <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.awayTeamFlag + ')'}"></div>
+            </span>
+            </div> <!-- fuck -->
+          </div>
+          
+        </div>
+        <div class="matches" *ngIf="show == 0">
+          <div class="lgName">{{leagueName}}</div>
+          <div class="event">
+            <div class="shirtAndTeam" >
+              <div class="shirt"  [ngStyle]="{'background-image': 'url(' + homeShirtUrl + ')'}">
+              </div>
+              <div class="teamName2">{{homeTeam}}</div>
+            </div>
+            
+            <div class="shirtAndTeam2" >
+              <div class="shirt"  [ngStyle]="{'background-image': 'url(' + awayShirtUrl + ')'}">
+              </div>
+              <div class="teamName2" >{{awayTeam}}</div>
             </div>
             <div class="scoresAndArena">
-
               <div class="arena">
-                  <div class="imageArena"></div>
-                  <div class="nameArena">
+                <div class="imageArena"></div>
+                <div class="nameArena">
                   Name : {{arenaName}}
-                  </div>
-                  <div class="capacityArena">
+                </div>
+                <div class="capacityArena">
                   Capacity : {{arenaCapacity}}
-                  </div>
+                </div>
               </div>
               <div class="scores">
-                  {{homeGoals}} - {{awayGoals}}
+                {{homeGoals}} - {{awayGoals}}
               </div>
             </div>
-          </div> 
-
+          </div>
           <div class="subscribe">
-    
-              <label for="fname">Subscribe this match</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your Email..." required [(ngModel)] = "value" >
-              <input type="submit" value="Subscribe" class="subscribeBtn" (click)="addSubscribedMatch(idMatch,value)" >
-  
-             
-            </div>
             
-        </div> 
-    
+            <label for="fname">Subscribe this match</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Email..." required [(ngModel)] = "value" >
+            <input type="submit" value="Subscribe" class="subscribeBtn" (click)="addSubscribedMatch(idMatch,value)" >
+            
+            
+          </div>
+        </div>
+      </div>
+      <div class="matches" *ngIf="show == 0">
+        <div class="lgName">{{leagueName}}</div>
+        <div class="event">
+          <div class="shirtAndTeam" >
+            <div class="shirt"  [ngStyle]="{'background-image': 'url(' + homeShirtUrl + ')'}">
+            </div>
+            <div class="teamName2">{{homeTeam}}</div>
+          </div>
+          
+          <div class="shirtAndTeam2" >
+            <div class="shirt"  [ngStyle]="{'background-image': 'url(' + awayShirtUrl + ')'}">
+            </div>
+            <div class="teamName2" >{{awayTeam}}</div>
+          </div>
+          <div class="scoresAndArena">
+            <div class="arena">
+              <div class="imageArena"></div>
+              <div class="nameArena">
+                Name : {{arenaName}}
+              </div>
+              <div class="capacityArena">
+                Capacity : {{arenaCapacity}}
+              </div>
+            </div>
+            <div class="scores">
+              {{homeGoals}} - {{awayGoals}}
+            </div>
+          </div>
+        </div>
+        <div class="subscribe">
+          
+          <label for="fname">Subscribe this match</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your Email..." required [(ngModel)] = "value" >
+          <input type="submit" value="Subscribe" class="subscribeBtn" (click)="addSubscribedMatch(idMatch,value)" >
+          
+          
+        </div>
+        
+      </div>
     </div>
-    </div>
-
-
-
-
-
-
-
+  </div>

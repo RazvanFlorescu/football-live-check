@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit {
 
 
   getAllLeagues() {
-    this.http.get("http://localhost:5001/api/leagues/topleagues").subscribe(
+    this.http.get("http://localhost:10100/leagues").subscribe(
       (res: Response) => {
         this.leagues = res.json();
         this.curentLeagues = res.json();
@@ -44,7 +44,7 @@ export class HomeComponent implements OnInit {
   }
 
   getAllMatches(){
-    this.http.get("http://localhost:5001/api/matches/live").subscribe(
+    this.http.get("http://localhost:10101/matches").subscribe(
       (res: Response) => {
         this.matches = res.json();
         
@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
   }
  
   getMatchesByLeague(league ){
-    this.http.get("http://localhost:5554/matches").subscribe(
+    this.http.get("http://localhost:10101/matches").subscribe(
       (res: Response) => {
         this.matches = res.json();
       

@@ -1,250 +1,207 @@
-.wrapper{
-    width: 750px;
-    
-    margin: auto; 
-    display: flex;
-    flex-direction: column;
+$main: #00FF87;
+$main-darker: #02894e;
+$main-darker-hover: #015731;
+$secondary: #38003C;
+$gray: #ebebe4;
+$blue: #267788;
+$blue-darker: #1b5460;
 
-}
-
-.header{
-    width: 100%;
-    height: 180px;
+.header {
+    margin-left: 325px;
+    height: 300px;
+    background: url("../../assets/topimg2.jpg") no-repeat bottom center;
+    background-size: cover;
     margin-bottom: 0.70em;
 }
 
-.image{
- 
-    content:url("../../assets/topimg.jpg");
-    
-    width: 100%;
-    height: 100%;
-    border-radius: 35px 35px 5px 5px;
-
-}
-
-
-.content{
-
+.content {
     width: 100%;
     height: 80%;
-   
-   
 }
-.leagues{
-    width: 25%;
-    background:#5F7C5F;
+
+.title {
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 800;
+    color: $main;
+    background: $secondary;
+    font-size: 20px;
+    position: fixed;
+    width: 325px;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+
+.leagues {
+    width: 325px;
     height: 100%;
-    float: left;
-    border-radius: 0px 0px 10px 10px;
-
+    overflow-y: auto;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: $gray;
+    text-align: center;
 }
 
-.matches{
-    width:75%;
-    background: #CEC5C5;
+.matches {
+    margin-left: 325px;
+    background: $gray;
     height: 100%;
-    float: right;
-    border-radius: 0px 5px 5px 0px
+
+    .match {
+        .matchBtn {
+            span {
+                text-align: center;
+                display: inline-block;
+                vertical-align: top;
+                width: 15%;
+                min-height: 22px;
+
+                + span {
+                    border-left: 2px solid transparent;
+                }
+
+            }
+
+        }
+
+    }
+
 }
 
-.leagueBtn{
+.leagueBtn {
     width: 95%;
     height: 40px;
-    
-    
-    border-radius: 5px 5px 5px 5px;
+    margin-top: 7px;
+    color: $secondary;
+    background-color: $main;
+    font-weight: 700;
+    transition: 0.35s all;
+    text-align: left;
+    position: relative;
+    padding: 0 10px;
+    border-radius: 5px;
     border: none;
+    cursor: pointer;
+
+    &:hover {
+        color: $main;
+        background-color: $secondary;
+    }
+
+    &:first-of-type {
+        margin-top: 75px;
+    }
+
+}
+
+.flagLeague {
+    width: 34px;
+    height: 34px;
+    background-size: contain;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+.container-matches {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    background: url("../../assets/gray-bg.png") no-repeat bottom right;
+    background-size: cover;
+}
+
+.titleLeague {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px 0;
+    background: $secondary;
     color: white;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    
-    font-size: 12px;
-   
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.matchBtn {
+    width: 100%;
+    height: 20px;
     cursor: pointer;
 }
-.teamName{
-    width: 80%;
-    height: 50%;
-    float: left;
-    margin-top: 4%;
-    text-align: left;
-}
-.flagLeague{
-    width: 20%;
-    height: 68%;
-    background-size:100%;
-    float: left;
-    margin: auto;
-}
 
-.leagueBtn:hover {
-  
-    opacity: 0.6;
-    font-size: 13px;
-}
+.matches .match .matchBtn:hover {
+    background: darken($gray, 10%);
 
-
-.title{
-    width: 100%;
-    height: 3%;
-    text-align: center;
-    margin: auto; 
-   
-    color: white;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background: #681C19;
-    vertical-align: middle;
-    font-size: 16px;
-
-    
-}
-
-
-
-
-.cotainer-matches{
-    width: 90%;
-    
-    margin: auto; 
-    margin-bottom: 10px;
+    span + span {
+        border-left: 2px solid $gray;
+    }
 
 }
 
-.titleLeague{
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    margin: auto; 
-    margin-top: 5px;
-    color: white;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background: #681C19;
-    vertical-align: middle;
-    font-size: 16px;
-    border-radius: 2px 2px 2px 2px;
+.event {
+    height: 300px;
 }
 
-
-.matchBtn{
-    width: 100%;
-    height: 20px;
-}
-
-.matchBtn:hover{
- 
-    -webkit-box-shadow: 17px 6px 44px -1px rgba(99,89,99,0.83);
-    -moz-box-shadow: 17px 6px 44px -1px rgba(99,89,99,0.83);
-    box-shadow: 17px 6px 44px -1px rgba(99,89,99,0.83);
-    background: #222121
-}
-
-.ora{
-
-    width: 12%;
-
-}
-.minutul{
-
-    width: 6.9%;
- 
-}
-
-.homeTeam{
-
-    width: 35%;
-
-}
-.score{
-
-    width: 10%;
-
-}
-.awayTeam{
-   
-    width: 35%;
-
-}
-
-.corp{
-    float: left;
-    margin-left: 1px;
+.scoresAndArena {
     height: 100%;
-    background: #FFFFFF;
-    color:black;
-    text-align: center;
-    margin-bottom: 1px;
-}
-
-.event{
-    width: 100%;
-    height: 210px;
-}
-
-.scoresAndArena{
-    height: 100%;
-    width: 20%;
+    width: 30%;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    /* margin: auto; */
-  
+    font-size: 40px;    /* margin: auto; */
     float: left;
 }
 
-.scores{
-    height: 30%;
+.scores {
     width: 100%;
-    margin-left: 40%;
+    text-align: center;
 }
 
-.arena{
+.arena {
     height: 70%;
     width: 100%;
 }
 
-.imageArena{
-    height: 70%;
-    width:100%;
-    background-size: 100%;
-    background-image: url("../../assets/stadium.png");
-    margin-left: 30%;
-    
-}
-.nameArena{
-    font-size: 12px;
-    height: 10%;
-    
-  width: 180%
-}
-.capacityArena{
-    font-size: 12px;
-    height: 10%;
-    width: 180%;
-  
+.imageArena {
+    height: 150px;
+    width: 150px;
+    background: url("../../assets/stadium.png") no-repeat center center;
+    background-size: contain;
+    margin: 0 auto;
 }
 
-.shirtAndTeam{
+.nameArena, .capacityArena {
+    text-align: center;
+    font-size: 12px;
+    height: 10%;
+    width: 100%;
+}
+
+.shirtAndTeam {
     width: 35%;
     height: 100%;
     float: left;
 }
 
-
-.shirtAndTeam2{
+.shirtAndTeam2 {
     width: 35%;
     height: 100%;
     float: right;
 }
-.shirt{
-    background-size: 100%;
-    width: 100%;
-    height: 70%;
+
+.shirt {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
 }
 
-.teamName2{
+.teamName2 {
     width: 100%;
     height: 30%;
     text-align: center;
@@ -253,21 +210,17 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-.lgName{
+
+.lgName {
     width: 100%;
-    height: 25px;
     text-align: center;
-    margin: auto; 
-    color: white;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background: #681C19;
-    vertical-align: middle;
+    padding: 5px 0;
+    color: $secondary;
+    background: $main;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 2px 2px 2px 2px;
 }
-
-
 
 input[type=text], select {
     width: 100%;
@@ -279,30 +232,30 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-.subscribe{
+.subscribe {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: lighten($gray, 10%);
     padding: 20px;
     width: 50%;
     margin: auto;
-    margin-bottom:5px; 
+    margin-bottom: 25px;
 }
-.subscribeBtn{
-    height: 55px;
-    width: 55px;
-    background-color: #681C19;;
-    border-radius: 35px 35px 35px 35px;
-    border: none;
+
+.subscribeBtn {
+    width: 150px;
+    padding: 10px;
+    margin: 0 0 0 auto;
+    display: block;
+    background-color: $blue;
     color: white;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    float: right;
-    font-size: 10px;
-   
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    transition: 0.35s all;
 
-}
-
-.subscribeBtn:hover{
-    opacity: 0.8;
+    &:hover {
+        background-color: $blue-darker;
+    }
 }
