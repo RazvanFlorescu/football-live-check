@@ -6,6 +6,7 @@ $gray: #ebebe4;
 $blue: #267788;
 $blue-darker: #1b5460;
 
+
 .header {
     margin-left: 325px;
     height: 300px;
@@ -45,6 +46,26 @@ $blue-darker: #1b5460;
     left: 0;
     background: $gray;
     text-align: center;
+
+    &::-webkit-scrollbar-track
+    {
+        border: none;
+        -webkit-box-shadow: inset 0 0 6px $secondary;
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+        border: none;
+        background-color: $secondary;
+        border: 1px solid #F5F5F5;
+    }
 }
 
 .matches {
