@@ -5,18 +5,44 @@
     <div class="leagues">
       <div class="title">My Leagues</div>
       
-      <button class="leagueBtn" *ngFor="let league of leagues"  (click)="getMatchesByLeague(league)" >
+      <button class="leagueBtn" *ngFor="let league of leagues"  (click)="getUpcomingMatchesByLeague(league.dbId)" >
       {{league.name}}
       <div class="flagLeague" [ngStyle]="{'background-image': 'url(' + league.flagURL + ')'}"></div>
       </button>
     </div>
+    
+
     <div class="matches" *ngIf="show == 1">
-      <div class="container-matches" *ngFor="let league of curentLeagues" >
+        <div class="container-matches" >
+            <div class="titleLeague" style = "color : red;"> Live Matches </div>
+            <div class="match" *ngFor="let match of liveMatches" >
+              <div class="matchBtn"  (click)="makeSubscribe(match.homeTeam.shortName , match.awayTeam.shortName,match.homeGoals,match.awayGoals,match.league.name,match.homeTeam.shirtUrl,match.awayTeam.shirtUrl,match.arena,match.dbId)" >
+                <span >{{match.startDate}}</span>
+                <span></span>
+                
+                <span>
+                  {{match.homeTeam.shortName}}
+                  <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.homeTeamFlag + ')'}"></div>
+                </span>
+                <span>
+                  {{match.homeGoals}} - {{match.awayGoals}}
+                </span>
+                <span>
+                  {{match.awayTeam.shortName}}
+                  <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.awayTeamFlag + ')'}"></div>
+                </span>
+                <span>
+                  <div *ngIf="isSubscribedMatch(match.dbId)"  style="width: 20px;height:20px ;background-image:url('../../assets/star.png') ; background-size: 100%;"></div>
+                </span>
+                </div> <!-- fuck -->
+              </div>
+            </div>
+      <div class="container-matches" *ngFor="let league of currentLeagues" >
         
         <div class="titleLeague"> {{league.name}} </div>
-        <div class="match" *ngFor="let match of matches" >
+        <div class="match" *ngFor="let match of currentMatches" >
           <div class="matchBtn" *ngIf="league.dbId == match.league.dbId" (click)="makeSubscribe(match.homeTeam.shortName , match.awayTeam.shortName,match.homeGoals,match.awayGoals,match.league.name,match.homeTeam.shirtUrl,match.awayTeam.shirtUrl,match.arena.name,match.arena.capacity,match.dbId)" >
-            <span>{{leagueId}}</span>
+            <span >{{match.startDate}}</span>
             <span></span>
             
             <span>
@@ -24,16 +50,21 @@
               <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.homeTeamFlag + ')'}"></div>
             </span>
             <span>
-              {{match.homeGoals}} - {{match.awayGoals}}
+               - 
             </span>
             <span>
               {{match.awayTeam.shortName}}
               <div class="flagTeam" [ngStyle]="{'background-image': 'url(' + match.awayTeamFlag + ')'}"></div>
             </span>
+            <span style="opacity: 0.4">
+              <div style="width: 20%;height: 50%;background-image:url('../../assets/star.png')"></div>
+            </span>
             </div> <!-- fuck -->
           </div>
           
         </div>
+
+   
         <div class="matches" *ngIf="show == 0">
           <div class="lgName">{{leagueName}}</div>
           <div class="event">
@@ -63,14 +94,7 @@
               </div>
             </div>
           </div>
-          <div class="subscribe">
-            
-            <label for="fname">Subscribe this match</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your Email..." required [(ngModel)] = "value" >
-            <input type="submit" value="Subscribe" class="subscribeBtn" (click)="addSubscribedMatch(idMatch,value)" >
-            
-            
-          </div>
+        
         </div>
       </div>
       <div class="matches" *ngIf="show == 0">
@@ -102,13 +126,20 @@
             </div>
           </div>
         </div>
-        <div class="subscribe">
+       
+        <div *ngIf="isSubscribedMatch(matchId) == false" class="subscribe">
           
           <label for="fname">Subscribe this match</label>
           <input type="text" id="fname" name="firstname" placeholder="Your Email..." required [(ngModel)] = "value" >
           <input type="submit" value="Subscribe" class="subscribeBtn" (click)="addSubscribedMatch(idMatch,value)" >
           
           
+        </div>
+
+        
+        <div *ngIf="isSubscribedMatch(matchId) == true" class="subscribe">
+            <label for="fname">Unsubscribe this match{{unSubscribeFromMatch(matchId)}}</label>
+            <input type="submit" value="Unsubscribe" class="subscribeBtn" (click)="unSubscribeFromMatch(matchId)" >
         </div>
         
       </div>
